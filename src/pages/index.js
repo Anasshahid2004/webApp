@@ -12,7 +12,7 @@ export default function Home() {
     <div>
        <span className='text-2xl font-[Poppins]'>
        neuralnine
-       <Image className='' width={150} height={100} src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image>
+       <Image className='' width={150} height={100} alt="img" src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image>
        </span>
     </div>
     </nav>
