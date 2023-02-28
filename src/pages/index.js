@@ -49,8 +49,29 @@ export default function Home() {
 
     </ui>
     </nav>  
-     
-      </>
+    <section id='home' className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
+      <div className='container mx-auto h-full'>
+        <div className='flex items-center h-full pt-8'>
+          {/* left side */}
+          <div className='flex-1 flex flex-col items-center'>
+          <Image className='items-center' width={250} height={150} alt="img" src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image>
+          </div>
+          {/* right side */}
+          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section className='min-h-[776px] bg-blue-700 flex items-center'>
+      <div className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'></div>
+    </section>
+    <section className='min-h-[500px] bg-blue-500'>
+      <div className='container mx-auto'>
+        <div className='flex flex-col xl:flex-row'></div>
+      </div>
+    </section>
+      </> 
     
   )
 }
