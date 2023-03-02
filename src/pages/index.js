@@ -63,15 +63,18 @@ export default function Home() {
       </div>
 
     </section>
+    
     <section className='min-h-[776px] bg-blue-700 flex items-center'>
-      <div className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'>
-      {/* <Image className='items-center' width={250} height={150} alt="img" src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image> */}
+      <div className='container mx-auto flex md:justify-between items-center'>
+    
+      <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">1</div>
+      <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">2</div>
+      <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">3</div>
+      <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">4</div>
       </div>
-      <div class="shadow-lg ...   py-52 px-40 bg-red-100 rounded-md drop-shadow-2xl justify-center">1</div>
-      <div class="shadow-lg ...   py-52 px-40 bg-red-100 rounded-md drop-shadow-2xl justify-center">2</div>
-      <div class="shadow-lg ...   py-52 px-40 bg-red-100 rounded-md drop-shadow-2xl justify-center">3</div>
-      <div class="shadow-lg ...   py-52 px-40 bg-red-100 rounded-md drop-shadow-2xl justify-center">4</div>
     </section>
+
+
     <section className='min-h-[500px] bg-blue-500'>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row'></div>
