@@ -64,13 +64,12 @@ export default function Home() {
 
     </section>
     
-    <section className='min-h-[776px] bg-blue-700 flex items-center'>
-      <div className='container mx-auto flex md:justify-between items-center'>
-    
-      <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">1</div>
-      <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">2</div>
-      <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">3</div>
-      <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">4</div>
+    <section className='min-h-[776px] bg-blue-700'>
+      <div className='container flex justify-center gap-2 p-4 mx-auto flex-wrap'>
+        <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">1</div>
+        <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">2</div>
+        <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">3</div>
+        <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">4</div>
       </div>
     </section>
 
