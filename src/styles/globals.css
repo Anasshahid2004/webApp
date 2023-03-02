@@ -6,3 +6,6 @@
 body{
     @apply bg-cyan-400;
 }
+.md-flex{
+    text-decoration: none;
+}

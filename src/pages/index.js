@@ -42,7 +42,7 @@ export default function Home() {
         <a href='#' className='text-xl hover:text-cyan-500 duration-500'>ABOUT</a>
       </li>
 
-     <button className='bg-cyan-400 text-white fonts-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded-md'>
+     <button className='bg-cyan-400 text-white fonts-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-700 rounded-md'>
       Get Started
      </button>
      <h2 class=""></h2>
@@ -64,15 +64,33 @@ export default function Home() {
 
     </section>
     <section className='min-h-[776px] bg-blue-700 flex items-center'>
-      <div className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'></div>
+      <div className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'>
+      {/* <Image className='items-center' width={250} height={150} alt="img" src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image> */}
+      </div>
+      <div class="shadow-lg ...   py-52 px-40 bg-red-100 rounded-md drop-shadow-2xl justify-center">1</div>
+      <div class="shadow-lg ...   py-52 px-40 bg-red-100 rounded-md drop-shadow-2xl justify-center">2</div>
+      <div class="shadow-lg ...   py-52 px-40 bg-red-100 rounded-md drop-shadow-2xl justify-center">3</div>
+      <div class="shadow-lg ...   py-52 px-40 bg-red-100 rounded-md drop-shadow-2xl justify-center">4</div>
     </section>
     <section className='min-h-[500px] bg-blue-500'>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row'></div>
       </div>
     </section>
+    <section className=' min-h-[490px] bg-cyan-700'>
+      <div className='container mx-auto'>
+        <div className='flex flex-col xl:flex-row gap-24'>
+        <Image className='object-cover h-full w-[500px] md:mx-auto lg:mx-0 rounded-2xl' width={550} height={150} alt="img" src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image>
+        <div className='flex flex-col items-center text-center lg:items-start lg:text-left '>
+          <div className='flex flex-col'>
+              <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-45 before:-top-[2rem] before:hidden before:lg:block' >Anas Shahid</h2>
+           </div>
+         </div>
+        </div>
+      </div>
+    </section>
       </> 
     
-  )
+  )  
 }
 
