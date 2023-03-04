@@ -5,92 +5,66 @@ import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-    <nav className='p-5 bg-white shadow md:flex md:items-center md:justify-between'>
+    <Head>
+     <title>Neuralnine | Welcome</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    </Head>
+    <Script src='/sc.js' strategy='lazyOnload'></Script>
+    <nav>
     <div className='flex justify-between items-center'>
-       <span className='text-2xl font-[Poppins] cursor-pointer'>
+       <span className=''>
        Neuralnine
-       <Image className='h-10 inline' width={150} height={100} alt="img" src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image>
+       <Image className='h-auto inline w-[15%]' width={1024} height={774} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1080232878887161896/logo.png?width=1025&height=425'></Image>
        </span>
-
-       <span className='text-3xl cursor-pointer md:hidden block'>
-        
+       <span className='text-3xl cursor-pointer md:hidden block'> 
        </span>
     </div>
 
-    <ui className='md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in-duration-500'>
+    <ul>
+
       <li className='mx-4 my-6 md:my-0 '>
-        <a href='#' className='text-xl hover:text-cyan-500 duration-500'>HOME</a>
+      <a href='#' className='text-xl hover:text-orange-500 duration-500'>HOME</a>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
-        <a href='#' className='text-xl hover:text-cyan-500 duration-500'>BLOG</a>
+      <a href='#' className='text-xl hover:text-orange-500 duration-500'>BLOG</a>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
-        <a href='#' className='text-xl hover:text-cyan-500 duration-500'>BOOKS</a>
+      <a href='#' className='text-xl hover:text-orange-500 duration-500'>BOOKS</a>
       </li>
       <li className='mx-4 my-6 md:my-0 '> 
-        <a href='#' className='text-xl hover:text-cyan-500 duration-500'>VIDEOS</a>
+      <a href='#' className='text-xl hover:text-orange-500 duration-500'>VIDEOS</a>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
-        <a href='#' className='text-xl hover:text-cyan-500 duration-500'>SHOP</a>
+      <a href='#' className='text-xl hover:text-orange-500 duration-500'>SHOP</a>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
-        <a href='#' className='text-xl hover:text-cyan-500 duration-500'>ABOUT</a>
+      <a href='#' className='text-xl hover:text-orange-500 duration-500'>ABOUT</a>
       </li>
-
-     <button className='bg-cyan-400 text-white fonts-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-700 rounded-md'>
-      Get Started
-     </button>
-     <h2 class=""></h2>
-
-    </ui>
+    </ul>
     </nav>  
-    <section id='home' className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
-      <div className='container mx-auto h-full'>
-        <div className='flex items-center h-full pt-8'>
-          {/* left side */}
-          <div className='flex-1 flex flex-col items-center'>
-          <Image className='items-center' width={250} height={150} alt="img" src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image>
-          </div>
-          {/* right side */}
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-          </div>
-        </div>
+    <section>
+      <div className='grad flex flex-col justify-center items-center text-white bg-[#080808] min-h-[805px]'>
+      <Image className='w-[35%]' width={1024} height={700} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1081366667449348247/hero.png'></Image>
+      <p id='typing' className='text-white text-3xl'></p>
+      <span className='p-7 fa fa-angle-double-down fa-3x text-orange-600'></span>
       </div>
-
     </section>
-    
-    <section className='min-h-[776px] bg-blue-700'>
-      <div className='container flex justify-center gap-2 p-4 mx-auto flex-wrap'>
+
+    <section className='min-h-[776px] bg-[#111111]'>
+      <div className='container flex justify-center gap-10 p-4 mx-auto flex-wrap pt-60'>
         <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">1</div>
         <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">2</div>
         <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">3</div>
         <div class="py-52 px-40 shadow-lg bg-red-100 rounded-md drop-shadow-2xl">4</div>
       </div>
     </section>
-
-
-    <section className='min-h-[500px] bg-blue-500'>
-      <div className='container mx-auto'>
-        <div className='flex flex-col xl:flex-row'></div>
-      </div>
-    </section>
-    <section className=' min-h-[490px] bg-cyan-700'>
-      <div className='container mx-auto'>
-        <div className='flex flex-col xl:flex-row gap-24'>
-        <Image className='object-cover h-full w-[500px] md:mx-auto lg:mx-0 rounded-2xl' width={550} height={150} alt="img" src='https://images.unsplash.com/photo-1677247191557-4abd28b7c387?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80'></Image>
-        <div className='flex flex-col items-center text-center lg:items-start lg:text-left '>
-          <div className='flex flex-col'>
-              <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-45 before:-top-[2rem] before:hidden before:lg:block' >Anas Shahid</h2>
-           </div>
-         </div>
-        </div>
-      </div>
-    </section>
+      
       </> 
     
   )  

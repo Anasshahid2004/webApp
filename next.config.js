@@ -3,18 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-// module.exports = nextConfig
-// module.exports = {
-//   images: {
-//     domains: ['images.unsplash.com'],
-// },
-// }
 module.exports = {
   images: {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.unsplash.com',
+        hostname: 'media.discordapp.net',
         port: '', 
        
       },

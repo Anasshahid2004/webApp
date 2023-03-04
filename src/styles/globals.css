@@ -2,10 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
-    @apply bg-cyan-400;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+body{
+    @apply bg-[#333];
+}
+
+nav{
+    @apply bg-black shadow md:flex md:items-center md:justify-evenly list-none px-60;
+}
+
+ul{
+    @apply md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-black w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 text-white;
+}
+
 .md-flex{
     text-decoration: none;
 }
