@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
     <Head>
-     <title>Neuralnine - Let&#39;s Develop Brains</title>
+     <title>Videos - Neuralnine</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     </Head>
     {/* <Script src='/sc.js' strategy='lazyOnload'></Script> */}
@@ -39,7 +39,7 @@ export default function Home() {
       <Link href='/videos' className='text-lg hover:text-orange-500 duration-500'>VIDEOS</Link>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
-      <a href='#' className='text-lg hover:text-orange-500 duration-500'>SHOP</a>
+      <Link href='/shop' className='text-lg hover:text-orange-500 duration-500'>SHOP</Link>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
       <a href='#' className='text-lg hover:text-orange-500 duration-500'>ABOUT</a>
