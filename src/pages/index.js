@@ -33,7 +33,7 @@ export default function Home() {
       <Link href='/blog' className='text-lg hover:text-orange-500 duration-500'>BLOG</Link>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
-      <a href='#' className='text-lg hover:text-orange-500 duration-500'>BOOKS</a>
+      <Link href='/books' className='text-lg hover:text-orange-500 duration-500'>BOOKS</Link>
       </li>
       <li className='mx-4 my-6 md:my-0 '> 
       <a href='#' className='text-lg hover:text-orange-500 duration-500'>VIDEOS</a>
@@ -48,81 +48,48 @@ export default function Home() {
     </nav>  
    
     <section>
-      <div className='flex flex-col justify-center items-center text-white bg-[#0e0e0e] min-h-[100vh]'>
+      <div className='flex flex-col justify-center items-center text-white bg-[#0a0a0a] min-h-[100vh]'>
       <Image className='sm:w-[37%] w-full' width={1024} height={700} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1081366667449348247/hero.png'></Image>
       <p id='typing' className='text-white md:text-3xl'></p>
       <span className='p-7 fa fa-angle-double-down fa-3x text-orange-600'></span>
       </div>
     </section>
 
-    <section className='min-h-[776px] bg-[#111111]'>
-    {/* <span className='fa fa-caret-down fa-10x text-orange-600'></span> */}
-      <h1 className='text-center text-[#FF7825] pt-40 text-3xl font-bold'>LATEST POSTS</h1>
-      <div className='container grid lg:grid-cols-4 justify-center gap-10 p-4 mx-auto flex-wrap pt-10'>
-        
-      <div class="max-w-sm rounded-lg shadow bg-black border-gray-700">
-            <a href="#">
-            <Image className='w-[100vh]' width={724} height={500} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1082226464470093894/card1.png?width=434&height=434'></Image>
-            </a>
-            <div class="p-5">
-                <a href="#">
-                    <h5 class="mb-2 text-[16px] font-bold tracking-tight text-[#FF7825]">MATHEMATICAL SKILLS NEEDED FOR MACHINE LEARNING</h5>
-                </a>
-                <p class="mb-3 text-[14px] text-[#EFEFEF]">Introduction When it comes to computer science and especially to machine learning and data science, you oftentimes hear that mathematical skills are fundamental. But is...</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-700 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                    Read more
-                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  </a>
-            </div>
-        </div>
-
-        <div class="max-w-sm rounded-lg shadow bg-black border-gray-700">
-            <a href="#">
-              <Image className='w-[100vh]' width={724} height={500} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1082226464004521984/card2.png?width=434&height=434'></Image>
-            </a>
-            <div class="p-5">
-                <a href="#">
-                    <h5 class="mb-2 text-[16px] font-bold tracking-tight text-[#FF7825]">10 AWESOME RASPBERRY PI PROJECT IDEAS</h5>
-                </a>
-                <p class="mb-3 text-[14px] text-[#EFEFEF]">Introduction The Raspberry Pi is an awesome little piece of hardware. It is essentially a minicomputer that costs less than 60$. Some older versions even...</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-700 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                    Read more
-                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  </a>
-            </div>
-        </div>
-        <div class="max-w-sm rounded-lg shadow bg-black border-gray-700">
-            <a href="#">
-              <Image className='w-[100vh]' width={724} height={500} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1082226463673176084/card3.png?width=434&height=434'></Image>
-            </a>
+    <section className="dark:bg-[#131313] dark:text-gray-100">
+        <h1 className='text-center text-[#FF7825] pt-16 pb-2 text-4xl font-bold'>ALL POSTS</h1>
+        <div className="container max-w-6xl p-4 mx-auto space-y-6 sm:space-y-12">
             
-            <div class="p-5">
-                <a href="#">
-                    <h5 class="mb-2 text-[16px] font-bold tracking-tight text-[#FF7825]">ANALYZING CORONAVIRUS WITH PYTHON (COVID-19)</h5>
+            <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969836054921366/maths.png?width=434&height=434" />
+                    <div className="p-4 space-y-2">
+                        <h2 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">MATHEMATICAL SKILLS NEEDED FOR MACHINE LEARNING</h2>
+                        <p className='text-[15px]'>Introduction When it comes to computer science and especially to machine learning and data science, you oftentimes hear that mathematical skills are fundamental. But is....</p>
+                    </div>
                 </a>
-                <p class="mb-3 text-[14px] text-[#EFEFEF]">Introduction Chances are, you are in quarantine right now and the reason for that is the coronavirus, also known as COVID-19. Now I am not....</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-700 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                    Read more
-                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  </a>
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969835740352563/raspberrypi.png?width=434&height=434" />
+                    <div className="p-4 space-y-2">
+                        <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">10 AWESOME RASPBERRY PI PROJECT IDEAS</h3>
+                        <p className='text-[15px]'>Introduction The Raspberry Pi is an awesome little piece of hardware. It is essentially a minicomputer that costs less than 60$. Some older versions even....</p>
+                    </div>
+                </a>
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969834863734915/corona.png?width=434&height=434" />
+                    <div className="p-4 space-y-2">
+                        <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">ANALYZING CORONAVIRUS WITH PYTHON (COVID-19)</h3>
+                        <p className='text-[15px]'>Introduction Chances are, you are in quarantine right now and the reason for that is the coronavirus, also known as COVID-19. Now I am not....</p>
+                    </div>
+                </a>
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969834515611738/top2020.png?width=434&height=434" />
+                    <div className="p-4 space-y-2">
+                        <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">TOP 5 PROGRAMMING LANGUAGES FOR 2020</h3>
+                        <p className='text-[15px]'>Introduction At the moment we can choose out of thousands of programming languages to learn. We have so many different choices that we get into...</p>
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="max-w-sm rounded-lg shadow bg-black border-gray-700">
-            <a href="#">
-              <Image className='w-[100vh]' width={724} height={500} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1082226463178244148/card4.png?width=434&height=434'></Image>
-            </a>
-            <div class="p-5">
-                <a href="#">
-                    <h5 class="mb-2 text-[16px] font-bold tracking-tight text-[#FF7825]">TOP 5 PROGRAMMING LANGUAGES FOR 2020</h5>
-                </a>
-                <p class="mb-3 text-[14px] text-[#EFEFEF]">Introduction At the moment we can choose out of thousands of programming languages to learn. We have so many different choices that we get into...</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-700 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                    Read more
-                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  </a>
-            </div>
-        </div>
-      </div>
     </section>
 
     <section className='min-h-[506px] bg-[#111111]'>

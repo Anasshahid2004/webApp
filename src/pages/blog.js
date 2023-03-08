@@ -30,7 +30,7 @@ export default function Home() {
       <Link href='/blog' className='text-lg hover:text-orange-500 duration-500'>BLOG</Link>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
-      <a href='#' className='text-lg hover:text-orange-500 duration-500'>BOOKS</a>
+      <Link href='/books' className='text-lg hover:text-orange-500 duration-500'>BOOKS</Link>
       </li>
       <li className='mx-4 my-6 md:my-0 '> 
       <a href='#' className='text-lg hover:text-orange-500 duration-500'>VIDEOS</a>
