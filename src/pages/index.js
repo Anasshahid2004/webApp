@@ -27,10 +27,10 @@ export default function Home() {
     <ul>
 
       <li className='mx-4 my-6 md:my-0 '>
-      <a href='#' className='text-lg hover:text-orange-500 duration-500'>HOME</a>
+      <Link href='/' className='text-lg hover:text-orange-500 duration-500'>HOME</Link>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
-      <a href='#' className='text-lg hover:text-orange-500 duration-500'>BLOG</a>
+      <Link href='/blog' className='text-lg hover:text-orange-500 duration-500'>BLOG</Link>
       </li>
       <li className='mx-4 my-6 md:my-0 '>
       <a href='#' className='text-lg hover:text-orange-500 duration-500'>BOOKS</a>
@@ -57,8 +57,8 @@ export default function Home() {
 
     <section className='min-h-[776px] bg-[#111111]'>
     {/* <span className='fa fa-caret-down fa-10x text-orange-600'></span> */}
-
-      <div className='container grid lg:grid-cols-4 justify-center gap-10 p-4 mx-auto flex-wrap pt-60'>
+      <h1 className='text-center text-[#FF7825] pt-40 text-3xl font-bold'>LATEST POSTS</h1>
+      <div className='container grid lg:grid-cols-4 justify-center gap-10 p-4 mx-auto flex-wrap pt-10'>
         
       <div class="max-w-sm rounded-lg shadow bg-black border-gray-700">
             <a href="#">
@@ -125,8 +125,9 @@ export default function Home() {
       </div>
     </section>
 
-    <section className='min-h-[776px] bg-[#111111]'>
-      <div className='container grid lg:grid-cols-3 justify-center gap-10 p-4 mx-auto flex-wrap pt-60'>
+    <section className='min-h-[506px] bg-[#111111]'>
+      <h1 className='text-center text-[#FF7825] pt-40 text-3xl font-bold'>TRENDING VIDEOS</h1>
+      <div className='container grid lg:grid-cols-3 justify-items-center gap-10 p-4 mx-auto flex-wrap pt-10'>
         
       <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.7] ease-in duration-200">
             <a href="#">
@@ -149,40 +150,49 @@ export default function Home() {
       </div>
     </section>
 
-    <section className='min-h-[776px] bg-[#111111]'>
-      <div className='container grid lg:grid-cols-2 justify-items-center gap-10 p-4 mx-auto items-center'>
-        <div class="p-2 rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.7] ease-in duration-200">
-            <a href="#">
-              <span className="fa fa-download fa-3x text-[#FF7825]"></span>
-              <h1 className='text-[#FF7825] text-lg text-center'>YouTube Downloader & Converter</h1>
-              <p class="mb-3 text-[14px] text-[#EFEFEF]">A Python Script that is able to download YouTube videos or Playlists and them into MP3 format.</p>
-            </a>
+    <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+    <h1 className='text-center text-[#FF7825] pt-20 text-4xl font-bold'>GITHUB PROJECTS</h1>
+      <div className="container max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center">
+        
+        <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
+          <a rel="noopener noreferrer" href="#" className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline dark:bg-black">
+            <h1 className="object-cover w-full rounded h-50">
+                        <span className="fab fa-youtube fa-3x text-[#FF7825]"></span>
+                    </h1>
+            <div className="p-6 space-y-2">
+              <h3 className="text-[#FF7825] text-[20px] font-semibold group-hover:underline group-focus:underline">YouTube Downloader & Converter</h3>
+              <p className="text-[14px]">A Simple Python Script that is able to download YouTube Videos or Playlists and convert them into MP3 Format.</p>
+            </div>
+          </a>
+          <a rel="noopener noreferrer" href="#" className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline dark:bg-black">
+                    <h1 className="object-cover w-full rounded h-50">
+                        <span className="fa fa-pencil fa-3x text-[#FF7825]"></span>
+                    </h1>
+            <div className="p-6 space-y-2">
+              <h3 className="text-[#FF7825] text-[20px] font-semibold group-hover:underline group-focus:underline">Handwritten Digit Recognition</h3>
+              <p className="text-[14px]">A Script that trains a model to recognize handwritten digits using the MNIST data set. Then it loads external files and uses the neural network to predict what digits they are.</p>
+            </div>
+          </a>
+          
+                <a rel="noopener noreferrer" href="#" className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
+                    <h1 className="object-cover w-full rounded h-50">
+                        <span className="fa fa-paint-brush fa-3x text-[#FF7825]"></span>
+                    </h1>
+            <div className="p-6 space-y-2">
+              <h3 className="text-[#FF7825] text-[20px] font-semibold group-hover:underline group-focus:underline">Drawing Classifier</h3>
+              <p className="text-[14px]">A Python Application which uses machine learning classification algorithms to classify drawings of the user.</p>
+            </div>
+          </a>
+                <a rel="noopener noreferrer" href="#" className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
+                    <h1 className="object-cover w-full rounded h-50">
+                        <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
+                    </h1>
+            <div className="p-6 space-y-2">
+              <h3 className="text-[#FF7825] text-[20px] font-semibold group-hover:underline group-focus:underline">Stock Visualizer.</h3>
+              <p className="text-[14px]">A Python Application that visualizes stock data using professional candlestick charts.</p>
+            </div>
+          </a>
         </div>
-
-        <div class="p-2 rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.7] ease-in duration-200">
-            <a href="#">
-              <span className="fa fa-pencil fa-3x text-[#FF7825]"></span>
-              <h1 className='text-[#FF7825] text-lg text-center'>Handwritten Digit Recognition</h1>
-              <p class="mb-3 text-[14px] text-[#EFEFEF]">A Python Script that trains a model to recognize Handwritten digits using the MNIST data set. Then it loads external files and uses the neural network to predict what digits they are.</p>
-            </a>
-        </div>
-
-        <div class="p-2 rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.7] ease-in duration-200">
-            <a href="#">
-              <span className="fa fa-paint-brush fa-3x text-[#FF7825]"></span>
-              <h1 className='text-[#FF7825] text-lg text-center'>Drawing Classifier</h1>
-              <p class="mb-3 text-[14px] text-[#EFEFEF]">A Python Application which uses machine learning classification algorithms to classify drawings of the user.</p>
-            </a>
-        </div>
-
-        <div class="p-2 rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.7] ease-in duration-200">
-            <a href="#">
-              <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
-              <h1 className='text-[#FF7825] text-lg text-center'>Stocker Visualizer</h1>
-              <p class="mb-3 text-[14px] text-[#EFEFEF]">A Python Application that visualizes stock data using professional candlestick charts......</p>
-            </a>
-        </div>
-
       </div>
     </section>
 
@@ -233,32 +243,32 @@ export default function Home() {
             <h2 class="title-font font-medium text-[#FF7825] tracking-widest text-sm mb-3">Social Media</h2>
             <nav class="list-none mb-10 gap-2">
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a class="text-white hover:text-[#FF7825]">
                   <span class='fab fa-instagram fa-3x'></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a class="text-white hover:text-[#FF7825]">
                   <span class='fab fa-youtube fa-3x'></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a class="text-white hover:text-[#FF7825]">
                   <span class='fab fa-twitter fa-3x'></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a class="text-white hover:text-[#FF7825]">
                   <span class='fab fa-linkedin fa-3x'></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a class="text-white hover:text-[#FF7825]">
                   <span class='fab fa-github fa-3x'></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a class="text-white hover:text-[#FF7825]">
                   <span class='fa fa-envelope fa-3x'></span>
                 </a>
               </li>
