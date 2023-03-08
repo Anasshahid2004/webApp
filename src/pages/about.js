@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
     <Head>
-     <title>Videos - Neuralnine</title>
+     <title>Neuralnine - Let&#39;s Develop Brains</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     </Head>
     {/* <Script src='/sc.js' strategy='lazyOnload'></Script> */}
@@ -46,33 +46,51 @@ export default function Home() {
       </li>
     </ul>
     </nav>  
-   
-    
-    <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
-        <h1 className='text-center text-[#FF7825] pt-36 text-4xl font-bold pb-12'>WHAT VIDEOS ARE YOU LOOKING FOR?</h1>
-        <div className="container max-w-6xl p-2 mx-auto space-y-6 sm:space-y-12 pb-12">
-            
-            <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041613409943632/Kopie-von-Kopie-von-Kopie-von-Kopie-von-Text-Platzhalter-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041613162500106/int-1-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041612902432908/candle-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041612663378011/ds-1-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041612453646507/ml-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041612185206784/port-1024x576.png?width=772&height=434" />
-                </a>
-            </div>
+    <section className="dark:bg-black dark:text-gray-100">
+	<div className="container flex flex-col mx-auto lg:flex-row min-h-[400px]">
+		<div className="w-full lg:w-1/3">
+        <Image className='' width={1024} height={774} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1083062122054942823/Design-ohne-Titel-3-1024x1024.png?width=434&height=434'></Image>
         </div>
+		<div className="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12 mt-10">
+			<h2 className="text-4xl font-semibold leading-none mb-4">Let&#39;s Develop Brains!</h2>
+			<p className="mt-4 mb-2 text-md">NeuralNine is an educational brand for computer science, programming and machine learning. The focus lies mainly on topics related to Python and artificial intelligence. You can find books, videos, blog posts and infographics here.</p>
+			<p className="mt-4 mb-2 text-md">The blog posts and the videos can be found on this website for free. If you need a structured introduction into Python and machine learning from scratch, you can also take a look at the books if you want. Additionally, you can find lots of interesting posts and infographics on the Instagram page!.</p>
+			<p className="mt-4 mb-8 text-md">The content of NeuralNine is structured as concise and simple as possible without neglecting quality or details..</p>
+            <h2 className="text-3xl text-center font-semibold leading-none mb-8">Connect With NeuralNine!!</h2>
+            <nav class="list-none mb-10 gap-2">
+              <li>
+                <a class="text-white hover:text-[#FF7825]">
+                  <span class='fab fa-instagram fa-3x'></span>
+                </a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FF7825]">
+                  <span class='fab fa-youtube fa-3x'></span>
+                </a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FF7825]">
+                  <span class='fab fa-twitter fa-3x'></span>
+                </a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FF7825]">
+                  <span class='fab fa-linkedin fa-3x'></span>
+                </a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FF7825]">
+                  <span class='fab fa-github fa-3x'></span>
+                </a>
+              </li>
+              <li>
+                <a class="text-white hover:text-[#FF7825]">
+                  <span class='fa fa-envelope fa-3x'></span>
+                </a>
+              </li>
+            </nav>
+		    </div>
+	    </div>
     </section>
 
     <footer class="text-[#C4C4C4] body-font bg-black">
