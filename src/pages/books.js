@@ -63,7 +63,7 @@ export default function Home() {
 	    <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
 		
 		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			<Link rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B07W5XDKLG/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i10" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015321000095905/12low.png?width=271&height=434" />
                 <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE 3 IN 1</h3>
@@ -72,8 +72,8 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
-			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			</Link>
+			<a rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B07WMSWBB1/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i9" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015324531695626/11low.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE 5 IN 1</h3>
@@ -83,7 +83,7 @@ export default function Home() {
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
 			</a>
-			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			<Link rel="noopener noreferrer" href="https://www.amazon.com/Python-Bible-Beginner-Intermediate-Learning-ebook/dp/B0868PZBCJ/ref=sr_1_1?qid=1670067650&refinements=p_27%3AFlorian+Dedov&s=books&sr=1-1" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015323743170590/10.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE 7 IN 1</h3>
@@ -92,8 +92,8 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
-			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			</Link>
+			<Link rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B07SZQQGZY/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i3" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015323407622284/1low.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE VOLUME ONE</h3>
@@ -102,8 +102,8 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
-			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			</Link>
+			<Link rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B07TJ23HG5/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i2" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015323059499150/2low-640x1024.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE VOLUME TWO</h3>
@@ -112,8 +112,8 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
-			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			</Link>
+			<Link rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B07V45YB89/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i5" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015322711367720/3low-640x1024.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE VOLUME THREE</h3>
@@ -122,8 +122,8 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
-            <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			</Link>
+      <Link rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B07SZQQGZY/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i3" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015322380021880/4low.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE VOLUME FOUR</h3>
@@ -132,8 +132,8 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
-            <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			</Link>
+      <Link rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B07WJW31B2/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i4" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015322057056367/5low.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE VOLUME FIVE</h3>
@@ -142,8 +142,8 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
-            <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			</Link>
+      <Link rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B0854PPMLS/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i7" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015321507594260/6low.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE VOLUME SIX</h3>
@@ -152,8 +152,8 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
-            <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
+			</Link>
+      <Link rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B0867KCQW4/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i8" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
             <Image alt="presentation" className="mx-auto object-cover w-fit rounded h-fit" width={480} height={420} src="https://media.discordapp.net/attachments/807562739324157962/1083015320559689830/7low.png?width=271&height=434" />
             <div className="p-6">
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">PYTHON BIBLE VOLUME SEVEN</h3>
@@ -162,7 +162,7 @@ export default function Home() {
                 <div className="flex flex-wrap justify-center">
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
                 </div>
-			</a>
+			</Link>
 		</div>
 		
 	    </div>
@@ -177,7 +177,9 @@ export default function Home() {
         <h3 className="text-3xl font-bold leading-none sm:text-1xl">THE BIBLE OF ALGORITHMS AND DATA STRUCTURES</h3>
         <h3 className="text-2xl font-bold leading-none sm:text-1xl text-[#ffe536] py-2">A COMPLEX SUBJECT SIMPLY EXPLAINED</h3>
             <div className="flex flex-wrap justify-center">
+                <Link href='https://www.amazon.com/gp/product/B08GGGGY5W/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1'>
                 <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+                </Link>
             </div>
         </div>
         </section>
