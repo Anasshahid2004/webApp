@@ -50,7 +50,7 @@ export default function Home() {
 	<div className="container max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center">
 		
 		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
-			<a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black">
+			<Link href='/machine-learning' rel="noopener noreferrer" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black">
 				<h1 className="object-cover w-full rounded h-50">
                     <span className="fa fa-laptop-code fa-3x text-[#FF7825]"></span>
                 </h1>
@@ -58,8 +58,8 @@ export default function Home() {
 					<h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">Machine Learning</h3>
 					<p className='text-[18px] py-4'>Posts about Machine Learning and Artificial Intelligence.</p>
 				</div>
-			</a>
-			<a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black">
+			</Link >
+			<Link rel="noopener noreferrer" href="/finance" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black">
                 <h1 className="object-cover w-full rounded h-50">
                     <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
                 </h1>
@@ -67,9 +67,9 @@ export default function Home() {
 					<h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">Finance</h3>
 					<p className='text-[18px] py-4'>Posts about Finance and Data Science.</p>
 				</div>
-			</a>
+			</Link>
 			
-            <a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+            <Link rel="noopener noreferrer" href="/networking" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
                 <h1 className="object-cover w-full rounded h-50">
                     <span className="fa fa-globe fa-3x text-[#FF7825]"></span>
                 </h1>
@@ -77,8 +77,8 @@ export default function Home() {
 					<h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">Networking</h3>
 					<p className='text-[18px] py-4'>Posts about Networking and Hacking</p>
 				</div>
-			</a>
-            <a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+			</Link>
+            <Link rel="noopener noreferrer" href="/other" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
                 <h1 className="object-cover w-full rounded h-50">
                     <span className="fa fa-list fa-3x text-[#FF7825]"></span>
                 </h1>
@@ -86,7 +86,7 @@ export default function Home() {
 					<h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">Rankings and Lists.</h3>
 					<p className='text-[18px] py-4'>Rankings and Lists of all kind.</p>
 				</div>
-			</a>
+			</Link>
 		</div>
 	</div>
     </section>
@@ -157,7 +157,7 @@ export default function Home() {
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">50+ PYTHON PROGRAMMING IDEAS</h3>
                         <p className='text-[15px]'>Introduction Programming is fun. It enables us to automate processes and create awesome applications. But just reading books and watching tutorials is not enough. We....</p>
                     </div>
-                </a>
+                  </a>
                 <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
                     <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969802328506368/ddos.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
