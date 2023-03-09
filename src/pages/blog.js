@@ -45,12 +45,12 @@ export default function Home() {
       </li>
     </ul>
     </nav>  
-    <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+    <section className="bg-[#0e0e0e] text-gray-100">
     <h1 className='text-center text-[#FF7825] pt-20 pb-10 text-4xl font-[700]'>WHAT ARE YOU INTERESTED IN?</h1>
 	<div className="container max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center">
 		
 		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
-			<a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline dark:bg-black">
+			<a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black">
 				<h1 className="object-cover w-full rounded h-50">
                     <span className="fa fa-laptop-code fa-3x text-[#FF7825]"></span>
                 </h1>
@@ -59,7 +59,7 @@ export default function Home() {
 					<p className='text-[18px] py-4'>Posts about Machine Learning and Artificial Intelligence.</p>
 				</div>
 			</a>
-			<a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline dark:bg-black">
+			<a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black">
                 <h1 className="object-cover w-full rounded h-50">
                     <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
                 </h1>
@@ -69,7 +69,7 @@ export default function Home() {
 				</div>
 			</a>
 			
-            <a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
+            <a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
                 <h1 className="object-cover w-full rounded h-50">
                     <span className="fa fa-globe fa-3x text-[#FF7825]"></span>
                 </h1>
@@ -78,7 +78,7 @@ export default function Home() {
 					<p className='text-[18px] py-4'>Posts about Networking and Hacking</p>
 				</div>
 			</a>
-            <a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
+            <a rel="noopener noreferrer" href="#" className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
                 <h1 className="object-cover w-full rounded h-50">
                     <span className="fa fa-list fa-3x text-[#FF7825]"></span>
                 </h1>
@@ -90,111 +90,111 @@ export default function Home() {
 		</div>
 	</div>
     </section>
-        <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+        <section className="bg-[#0e0e0e] text-gray-100">
         <h1 className='text-center text-[#FF7825] pt-16 pb-2 text-4xl font-bold'>ALL POSTS</h1>
         <div className="container max-w-6xl p-4 mx-auto space-y-6 sm:space-y-12">
             
             <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969836054921366/maths.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969836054921366/maths.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h2 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">MATHEMATICAL SKILLS NEEDED FOR MACHINE LEARNING</h2>
                         <p className='text-[15px]'>Introduction When it comes to computer science and especially to machine learning and data science, you oftentimes hear that mathematical skills are fundamental. But is....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969835740352563/raspberrypi.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969835740352563/raspberrypi.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">10 AWESOME RASPBERRY PI PROJECT IDEAS</h3>
                         <p className='text-[15px]'>Introduction The Raspberry Pi is an awesome little piece of hardware. It is essentially a minicomputer that costs less than 60$. Some older versions even....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969834863734915/corona.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969834863734915/corona.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">ANALYZING CORONAVIRUS WITH PYTHON (COVID-19)</h3>
                         <p className='text-[15px]'>Introduction Chances are, you are in quarantine right now and the reason for that is the coronavirus, also known as COVID-19. Now I am not....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969834515611738/top2020.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969834515611738/top2020.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">TOP 5 PROGRAMMING LANGUAGES FOR 2020</h3>
                         <p className='text-[15px]'>Introduction At the moment we can choose out of thousands of programming languages to learn. We have so many different choices that we get into...</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969834142322751/kneighborsthumb.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969834142322751/kneighborsthumb.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">K-NEAREST NEIGHBORS CLASSIFICATION FROM SCRATCH IN PYTHON</h3>
                         <p className='text-[15px]'>Introduction Classification is a supervised learning process that categorizes data into classes. One of the most popular classification algorithms in machine learning is the K-Nearest Neighbors....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969833827745832/portthumb.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969833827745832/portthumb.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">PORTFOLIO VISUALIZER WITH MATPLOTLIB IN PYTHON</h3>
                         <p className='text-[15px]'>Introduction Python is the number one language for machine learning and data science right now. For the most part this is because of the powerful....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969833450262559/textgeneration.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969833450262559/textgeneration.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">GENERATING TEXTS WITH RECURRENT NEURAL NETWORKS IN PYTHON</h3>
                         <p className='text-[15px]'>IntroductIntroduction Recurrent neural networks are very useful when it comes to the processing of sequential data like text. In this tutorial, we are going to...</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969833009856552/tensorflowhandwritten.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969833009856552/tensorflowhandwritten.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">HANDWRITTEN DIGITS RECOGNITION WITH TENSORFLOW</h3>
                         <p className='text-[15px]'>Introduction One of the most powerful and most popular libraries for machine learning out there is Tensorflow. It allows us to easily build, train and...</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969802664058961/50ideas.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969802664058961/50ideas.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">50+ PYTHON PROGRAMMING IDEAS</h3>
                         <p className='text-[15px]'>Introduction Programming is fun. It enables us to automate processes and create awesome applications. But just reading books and watching tutorials is not enough. We....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969802328506368/ddos.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969802328506368/ddos.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">CODE A DDOS SCRIPT IN PYTHON</h3>
                         <p className='text-[15px]'>Introduction In this tutorial we are going to write a penetration-testing script, namely a DDOS script, in Python. This program will allow us to flood....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969801971998740/tcpchat.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969801971998740/tcpchat.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">TCP CHAT IN PYTHON</h3>
                         <p className='text-[15px]'>Introduction Python is a great programming language for computer networking. It allows us to create solid applications very fast and easily. In this tutorial, we....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969801544171540/linear_regression.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969801544171540/linear_regression.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">LINEAR REGRESSION FROM SCRATCH IN PYTHON</h3>
                         <p className='text-[15px]'>Introduction One of the most basic machine learning models is the Linear Regression. The purpose of linear regression is to take a bunch of data....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969801179275324/candlestickpython.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969801179275324/candlestickpython.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">PLOT CANDLESTICK CHARTS IN PYTHON</h3>
                         <p className='text-[15px]'>Introduction Candlestick charts are one of the best ways to visualize stock data because they give us very detailed information about the evolution of share...</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969800843722802/top5.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969800843722802/top5.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">TOP 5 PROGRAMMING LANGUAGES FOR 2019</h3>
                         <p className='text-[15px]'>Introduction Right now, there are hundreds, if not thousands, of different programming languages out there. Some of them are used quite frequently and some of....</p>
                     </div>
                 </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-black hidden sm:block">
-                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 dark:bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969800327831602/portscannerpython.png?width=434&height=434" />
+                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block">
+                    <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1082969800327831602/portscannerpython.png?width=434&height=434" />
                     <div className="p-4 space-y-2">
                         <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">THREADED PORT SCANNER IN PYTHON</h3>
                         <p className='text-[15px]'>Introduction Port Scanners are primarily used for Penetration Testing and Information Gathering. Essentially, we are looking for open ports in a host for one of...</p>

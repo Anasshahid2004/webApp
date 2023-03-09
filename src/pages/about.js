@@ -46,7 +46,7 @@ export default function Home() {
       </li>
     </ul>
     </nav>  
-    <section className="dark:bg-black dark:text-gray-100">
+    <section className="bg-black text-gray-100">
 	<div className="container flex flex-col mx-auto lg:flex-row min-h-[400px]">
 		<div className="w-full lg:w-1/3">
         <Image className='' width={1024} height={774} alt="img" src='https://media.discordapp.net/attachments/807562739324157962/1083062122054942823/Design-ohne-Titel-3-1024x1024.png?width=434&height=434'></Image>

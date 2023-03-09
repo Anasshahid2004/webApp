@@ -45,16 +45,16 @@ export default function Home() {
       </li>
     </ul>
     </nav>  
-    <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+    <section className="bg-[#0e0e0e] text-gray-100">
         <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-16 md:px-10 lg:px-32 xl:max-w-4xl">
         <h1 className="text-4xl font-bold leading-none sm:text-5xl">THE 
-            <span className="dark:text-[#FF7825]"> NEURALNINE </span> MERCH
+            <span className="text-[#FF7825]"> NEURALNINE </span> MERCH
         </h1>
         <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10"/>
         <h1 className="text-3xl font-bold leading-none sm:text-4xl">NeuralNine Logo Collection</h1>
         </div>
         </section>
-        <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+        <section className="bg-[#0e0e0e] text-gray-100">
 	    <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
 		
 		<div className="grid justify-center grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
@@ -64,7 +64,7 @@ export default function Home() {
                 <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">NeuralNine Coffee Mug</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-            <button className="px-8 py-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+            <button className="px-8 py-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -73,7 +73,7 @@ export default function Home() {
                 <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">NeuralNine Shirt</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-            <button className="px-8 py-2 m-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+            <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -82,7 +82,7 @@ export default function Home() {
                     <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">NeuralNine Mouse Pad</h3>
               </div>
               <div className="flex flex-wrap justify-center">
-              <button className="px-8 py-2 m-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+              <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
               </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -91,7 +91,7 @@ export default function Home() {
                   <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">NeuralNine Baseball Cap</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-            <button className="px-8 py-2 m-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+            <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -100,7 +100,7 @@ export default function Home() {
                   <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">NeuralNine Phone Case</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-            <button className="px-8 py-2 m-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+            <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
           </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -109,27 +109,27 @@ export default function Home() {
                 <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">NeuralNine Sticker</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-          <button className="px-8 py-2 m-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+          <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
           </div>
 		  </a>       
       
 		</div>
 	  </div>
     </section>
-    <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+    <section className="bg-[#0e0e0e] text-gray-100">
         <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-16 md:px-10 lg:px-32 xl:max-w-4xl">
         <h1 className="text-4xl font-bold leading-none sm:text-5xl">MORE OPTIONS</h1>
         <div className="flex flex-wrap justify-center mb-10">
-          <button className="px-8 py-3 m-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> GO TO SHOP</button>
+          <button className="px-8 py-3 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> GO TO SHOP</button>
           </div>
         <h1 className="text-4xl font-bold leading-none sm:text-5xl mt-10">
-            <span className="dark:text-[#FF7825]"> PROGRAMMING  </span> MERCH
+            <span className="text-[#FF7825]"> PROGRAMMING  </span> MERCH
         </h1>
         <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10"/>
         <h1 className="text-3xl font-bold leading-none sm:text-4xl">Firewall Face Masks</h1>
         </div>
         </section>
-        <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+        <section className="bg-[#0e0e0e] text-gray-100">
 	    <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
 		
 		<div className="grid justify-center grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-2">
@@ -139,7 +139,7 @@ export default function Home() {
                 <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">Firewall Mask Green</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-            <button className="px-8 py-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+            <button className="px-8 py-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -148,7 +148,7 @@ export default function Home() {
                 <h3 className="text-2xl font-[700] group-hover:underline group-focus:underline text-center">Firewall Mask Orange</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-            <button className="px-8 py-2 m-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+            <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
 			

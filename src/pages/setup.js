@@ -46,15 +46,15 @@ export default function Home() {
       </li>
     </ul>
     </nav>  
-    <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+    <section className="bg-[#0e0e0e] text-gray-100">
         <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-16 md:px-10 lg:px-32 xl:max-w-4xl ">
-        <h1 className="text-4xl font-bold leading-none sm:text-5xl"><span className="dark:text-[#FF7825] block"> NEURALNINE </span> CODING SETUP
+        <h1 className="text-4xl font-bold leading-none sm:text-5xl"><span className="text-[#FF7825] block"> NEURALNINE </span> CODING SETUP
         </h1>
         <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10"/>
         <h1 className="text-3xl font-bold leading-none sm:text-4xl">FULL LIST</h1>
         </div>
         </section>
-        <section className="dark:bg-[#0e0e0e] dark:text-gray-100">
+        <section className="bg-[#0e0e0e] text-gray-100">
 	    <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12 pb-20">
 		
 		<div className="grid justify-center grid-cols-1 gap-14 sm:grid-cols-2 lg:grid-cols-2">
@@ -67,7 +67,7 @@ export default function Home() {
                 <h3 className="text-lg leading-none sm:text-1xl text-[#ccc] py-2">A pretty nice and inexpensive mechanical keyboard. It has a lot of light effects, feels great and it also has keys with special functionalities.</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-                <button className="px-8 py-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+                <button className="px-8 py-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -79,7 +79,7 @@ export default function Home() {
                 <h3 className="text-lg leading-none sm:text-1xl text-[#ccc] py-2">An inexpensive and ergonomic mouse that can light up in different colors. It comes with special keys that regulate mouse sensitivity and change its color.</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-                <button className="px-8 py-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+                <button className="px-8 py-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -91,7 +91,7 @@ export default function Home() {
                 <h3 className="text-lg leading-none sm:text-1xl text-[#ccc] py-2">A basic 24 inch monitor that is perfect for any programming work and not expensive at all. It may not be the best choice for gaming though.</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-                <button className="px-8 py-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+                <button className="px-8 py-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -103,7 +103,7 @@ export default function Home() {
                 <h3 className="text-lg leading-none sm:text-1xl text-[#ccc] py-2">The microphone I make my videos with. I personally think it is high quality. The sound is perfect and it also comes with a great stand.</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-                <button className="px-8 py-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+                <button className="px-8 py-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
             <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline">
@@ -115,7 +115,7 @@ export default function Home() {
                 <h3 className="text-lg leading-none sm:text-1xl text-[#ccc] py-2">For most explanation videos I usually use a drawing tablet. This one is perfect for very simple tasks. I would not recommend it for professional artwork or for designing though.</h3>
             </div>
             <div className="flex flex-wrap justify-center">
-                <button className="px-8 py-2 text-md font-semibold rounded dark:bg-[#FF7825] dark:text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
+                <button className="px-8 py-2 text-md font-semibold rounded bg-[#FF7825] text-black"><span className="fa fa-shopping-cart"></span> VIEW ON AMAZON</button>
             </div>
 			</a>
                 
