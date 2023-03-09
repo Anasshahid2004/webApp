@@ -55,24 +55,24 @@ export default function Home() {
         <div className="container max-w-6xl p-2 mx-auto space-y-6 sm:space-y-12 pb-12">
             
             <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                <Link rel="noopener noreferrer" href="https://bit.ly/2pxt7kQ" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
                     <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041613409943632/Kopie-von-Kopie-von-Kopie-von-Kopie-von-Text-Platzhalter-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                </Link>
+                <Link rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL7yh-TELLS1F3KytMVZRFO-xIo_S2_Jg1" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
                     <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041613162500106/int-1-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                </Link>
+                <Link rel="noopener noreferrer" href="https://www.youtube.com/watch?v=mLjqUaNkp7s" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
                     <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041612902432908/candle-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                </Link>
+                <Link rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL7yh-TELLS1FfO5Q8KHK31VgsrcnWcTAk" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
                     <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041612663378011/ds-1-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                </Link>
+                <Link rel="noopener noreferrer" href="https://www.youtube.com/watch?v=jg5paDArl3E&list=PL7yh-TELLS1EZGz1-VDltwdwZvPV-jliQ" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
                     <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041612453646507/ml-1024x576.png?width=772&height=434" />
-                </a>
-                <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
+                </Link>
+                <Link rel="noopener noreferrer" href="https://www.youtube.com/watch?v=yw9re6Qigtk" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black">
                     <Image alt="presentation" width={434} height={434} className="object-cover w-full rounded h-100 bg-gray-500" src="https://media.discordapp.net/attachments/807562739324157962/1083041612185206784/port-1024x576.png?width=772&height=434" />
-                </a>
+                </Link>
             </div>
         </div>
     </section>
