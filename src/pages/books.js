@@ -109,9 +109,12 @@ export default function Home() {
             COLLECTION
           </h3>
           <div className="flex flex-wrap justify-center">
+          <Link href='https://www.amazon.com/Python-Bible-Beginner-Intermediate-Learning-ebook/dp/B0868PZBCJ/ref=sr_1_1?qid=1670067650&refinements=p_27%3AFlorian+Dedov&s=books&sr=1-1'>
             <button className="px-8 py-2 m-2 text-md font-semibold rounded bg-[#FF7825] text-black">
-              <span className="fa fa-shopping-cart"></span> VIEW ON AMAZON
+              <span className="fa fa-shopping-cart">
+                </span> VIEW ON AMAZON
             </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -276,7 +279,7 @@ export default function Home() {
             </Link>
             <Link
               rel="noopener noreferrer"
-              href="https://www.amazon.com/gp/product/B07SZQQGZY/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i3"
+              href="https://www.amazon.com/gp/product/B07VZW6KC6/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i6"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
