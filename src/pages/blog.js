@@ -220,10 +220,10 @@ export default function Home() {
                 <Link href='/' className='hover:text-orange-500 duration-500'>Home</Link>
               </li>
               <li className='mx-4 my-1 md:my-0 '>
-                <Link href='/' className='hover:text-orange-500 duration-500'>Blog</Link>
+                <Link href='/blog' className='hover:text-orange-500 duration-500'>Blog</Link>
               </li>
               <li className='mx-4 my-1 md:my-0 '>
-                <Link href='/blog' className='hover:text-orange-500 duration-500'>Books</Link>
+                <Link href='/books' className='hover:text-orange-500 duration-500'>Books</Link>
               </li>
               <li className='mx-4 my-1 md:my-0 '>
                 <Link href='/videos' className='hover:text-orange-500 duration-500'>Videos</Link>
