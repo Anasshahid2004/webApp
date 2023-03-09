@@ -106,12 +106,12 @@ export default function Home() {
           <div className="grid justify-center grid-cols-1 gap-14 sm:grid-cols-2 lg:grid-cols-2">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuralkeyboard"
               className="md:max-w-md mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-300 ease-in-out hover:scale-110"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083314687636164619/key-1024x446.png?width=996&height=434"
@@ -119,7 +119,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuralkeyboard"
               className="md:max-w-md mx-auto group hover:no-underline focus:no-underline my-auto"
             >
               <div className="p-6">
@@ -140,12 +140,12 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuralmouse"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg transition duration-300 ease-in-out hover:scale-110  h-fit"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083314687397081088/mouse2-1.png?width=357&height=434"
@@ -153,7 +153,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuralmouse"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline my-auto"
             >
               <div className="p-6">
@@ -174,12 +174,12 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuralmonitor"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg transition duration-300 ease-in-out hover:scale-110  h-fit"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083314687128637480/mon.png?width=551&height=434"
@@ -187,7 +187,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuralmonitor"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline my-auto"
             >
               <div className="p-6">
@@ -208,12 +208,12 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuralmicrophone"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg transition duration-300 ease-in-out hover:scale-110  h-fit"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083314686876995635/mic-996x1024.png?width=422&height=434"
@@ -221,7 +221,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuralmicrophone"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline my-auto"
             >
               <div className="p-6">
@@ -242,12 +242,12 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuraldraw"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg transition duration-300 ease-in-out hover:scale-110  h-fit"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083314686654689420/draw.png?width=583&height=434"
@@ -255,7 +255,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="http://hyperurl.co/neuraldraw"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline my-auto"
             >
               <div className="p-6">

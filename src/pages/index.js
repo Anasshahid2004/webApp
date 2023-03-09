@@ -213,10 +213,10 @@ export default function Home() {
           TRENDING VIDEOS
         </h1>
         <div className="container grid lg:grid-cols-3 justify-items-center gap-10 p-4 mx-auto flex-wrap pt-10">
-          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.7] ease-in duration-200">
+          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.8]">
             <a href="#">
               <Image
-                className="w-[100vh]"
+                className="transition duration-300 ease-in-out hover:scale-110"
                 width={724}
                 height={500}
                 alt="img"
@@ -225,10 +225,10 @@ export default function Home() {
             </a>
           </div>
 
-          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.7] ease-in duration-200">
+          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.8]">
             <a href="#">
               <Image
-                className="w-[100vh]"
+                className="transition duration-300 ease-in-out hover:scale-110"
                 width={724}
                 height={500}
                 alt="img"
@@ -236,10 +236,10 @@ export default function Home() {
               ></Image>
             </a>
           </div>
-          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700  hover:opacity-[0.7] ease-in duration-200">
+          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700  hover:opacity-[0.8]">
             <a href="#">
               <Image
-                className="w-[100%] h-[100%]"
+                className="transition duration-300 ease-in-out hover:scale-110"
                 width={1000}
                 height={500}
                 alt="img"
@@ -259,7 +259,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black"
+              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
                 <span className="fab fa-youtube fa-3x text-[#FF7825]"></span>
@@ -277,7 +277,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black"
+              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
                 <span className="fa fa-pencil fa-3x text-[#FF7825]"></span>
@@ -297,7 +297,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
                 <span className="fa fa-paint-brush fa-3x text-[#FF7825]"></span>
@@ -315,7 +315,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
                 <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>

@@ -105,7 +105,7 @@ export default function Home() {
           <div className="grid justify-center grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.redbubble.com/i/mug/NeuralNine-by-NeuralNine/86109991.9Q0AD?asc=u"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
@@ -128,7 +128,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.redbubble.com/i/t-shirt/NeuralNine-by-NeuralNine/86109991.UGYPM?asc=u#&gid=1&pid=2"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
@@ -151,7 +151,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.redbubble.com/i/cheeky-larrikin/NeuralNine-by-NeuralNine/86109991.G1FH6?asc=u#&gid=1&pid=1"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
@@ -174,7 +174,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.redbubble.com/i/hat/NeuralNine-by-NeuralNine/86109991.9AAXL?asc=u#&gid=1&pid=1"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
@@ -197,7 +197,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.redbubble.com/i/samsung-case/NeuralNine-by-NeuralNine/86109991.BHP2M?asc=u#&gid=1&pid=1"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
@@ -220,7 +220,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.redbubble.com/i/sticker/NeuralNine-by-NeuralNine/86109991.JCQM3?asc=u"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
@@ -250,9 +250,11 @@ export default function Home() {
             MORE OPTIONS
           </h1>
           <div className="flex flex-wrap justify-center mb-10">
+            <Link href='https://www.redbubble.com/shop/ap/86109991'>
             <button className="px-8 py-3 m-2 text-md font-semibold rounded bg-[#FF7825] text-black">
               <span className="fa fa-shopping-cart"></span> GO TO SHOP
             </button>
+            </Link>
           </div>
           <h1 className="text-4xl font-bold leading-none sm:text-5xl mt-10">
             <span className="text-[#FF7825]"> PROGRAMMING </span> MERCH
@@ -268,7 +270,7 @@ export default function Home() {
           <div className="grid justify-center grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-2">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.redbubble.com/i/mask/Firewall-Green-by-NeuralNine/56048731.9G0D8"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
@@ -291,7 +293,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.redbubble.com/i/mask/Firewall-Orange-by-NeuralNine/56294958.9G0D8"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline"
             >
               <Image
