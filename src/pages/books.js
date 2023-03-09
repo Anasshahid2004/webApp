@@ -96,7 +96,7 @@ export default function Home() {
           </h1>
           <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10" />
           <Image
-            className="inline w-full"
+            className="inline w-full transition duration-500 ease-in-out hover:scale-110"
             width={1024}
             height={400}
             alt="img"
@@ -128,7 +128,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015321000095905/12low.png?width=271&height=434"
@@ -154,7 +154,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015324531695626/11low.png?width=271&height=434"
@@ -180,7 +180,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015323743170590/10.png?width=271&height=434"
@@ -206,7 +206,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015323407622284/1low.png?width=271&height=434"
@@ -232,7 +232,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015323059499150/2low-640x1024.png?width=271&height=434"
@@ -258,7 +258,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015322711367720/3low-640x1024.png?width=271&height=434"
@@ -284,7 +284,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015322380021880/4low.png?width=271&height=434"
@@ -310,7 +310,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015322057056367/5low.png?width=271&height=434"
@@ -336,7 +336,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015321507594260/6low.png?width=271&height=434"
@@ -362,7 +362,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded h-fit"
+                className="mx-auto object-cover w-fit rounded h-fit transition duration-500 ease-in-out hover:scale-90"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083015320559689830/7low.png?width=271&height=434"
@@ -392,7 +392,7 @@ export default function Home() {
           </h1>
           <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10" />
           <Image
-            className="inline w-fit py-5"
+            className="inline w-fit py-5 transition duration-500 ease-in-out hover:scale-110"
             width={1024}
             height={400}
             alt="img"

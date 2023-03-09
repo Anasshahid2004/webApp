@@ -110,7 +110,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-200 ease-in-out hover:scale-95"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083051435530395759/mugth.png?width=448&height=434"
@@ -133,7 +133,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-200 ease-in-out hover:scale-95"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083051435295527002/shirtth.png?width=448&height=434"
@@ -156,7 +156,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-200 ease-in-out hover:scale-95"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083051435010306048/padth.png?width=448&height=434"
@@ -179,7 +179,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-200 ease-in-out hover:scale-95"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083051434783809536/capth.png?width=448&height=434"
@@ -202,7 +202,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-200 ease-in-out hover:scale-95"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083051434536357978/phoneth.png?width=448&height=434"
@@ -225,7 +225,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-200 ease-in-out hover:scale-95"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083051434309849169/stickerth.png?width=448&height=434"
@@ -275,7 +275,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-200 ease-in-out hover:scale-95"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083051434104332329/gm2-1.jpg?width=461&height=434"
@@ -298,7 +298,7 @@ export default function Home() {
             >
               <Image
                 alt="presentation"
-                className="mx-auto object-cover w-fit rounded-lg h-fit"
+                className="mx-auto object-cover w-fit rounded-lg h-fit transition duration-200 ease-in-out hover:scale-95"
                 width={480}
                 height={420}
                 src="https://media.discordapp.net/attachments/807562739324157962/1083051433915601019/om2.jpg?width=461&height=434"
