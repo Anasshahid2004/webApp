@@ -94,7 +94,7 @@ export default function Home() {
             THE
             <span className="text-[#FF7825]"> PYTHON </span> BIBLE
           </h1>
-          <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10" />
+          <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded my-10" />
           <Image
             className="inline w-full transition duration-500 ease-in-out hover:scale-110"
             width={1024}
@@ -390,7 +390,7 @@ export default function Home() {
             THE
             <span className="text-[#FF7825]"> ALGORITHM </span> BIBLE
           </h1>
-          <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10" />
+          <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded my-10" />
           <Image
             className="inline w-fit py-5 transition duration-500 ease-in-out hover:scale-110"
             width={1024}

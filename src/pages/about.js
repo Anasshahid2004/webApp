@@ -91,7 +91,7 @@ export default function Home() {
       </nav>
       <section className="bg-black text-gray-100">
         <div className="container flex flex-col mx-auto lg:flex-row min-h-[400px]">
-          <div className="w-full lg:w-1/3">
+          <div className="w-1/2 lg:w-1/3 mx-auto">
             <Image
               className=""
               width={1024}

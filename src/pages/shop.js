@@ -94,7 +94,7 @@ export default function Home() {
             THE
             <span className="text-[#FF7825]"> NEURALNINE </span> MERCH
           </h1>
-          <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10" />
+          <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded my-10" />
           <h1 className="text-3xl font-bold leading-none sm:text-4xl">
             NeuralNine Logo Collection
           </h1>
@@ -259,7 +259,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold leading-none sm:text-5xl mt-10">
             <span className="text-[#FF7825]"> PROGRAMMING </span> MERCH
           </h1>
-          <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded md:my-10" />
+          <hr class="w-full h-1.5 mx-auto  bg-[#FF7825] border-0 rounded my-10" />
           <h1 className="text-3xl font-bold leading-none sm:text-4xl">
             Firewall Face Masks
           </h1>
