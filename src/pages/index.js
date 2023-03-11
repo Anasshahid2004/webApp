@@ -23,6 +23,7 @@ export default function Home() {
 
       <nav>
         <div className="flex justify-between items-center">
+          <Link href='/'>
           <Image
             className="inline w-[22%]"
             width={1024}
@@ -30,6 +31,7 @@ export default function Home() {
             alt="img"
             src="https://media.discordapp.net/attachments/807562739324157962/1080232878887161896/logo.png?width=1025&height=425"
           ></Image>
+          </Link>
         </div>
 
         <ul>
@@ -114,14 +116,14 @@ export default function Home() {
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="/mathematical-skills-needed-for-machine-learning"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 bg-gray-500"
+                className="object-cover w-full rounded h-100 bg-gray-500 transition duration-300 ease-in-out hover:scale-110"
                 src="https://media.discordapp.net/attachments/807562739324157962/1082969836054921366/maths.png?width=434&height=434"
               />
               <div className="p-4 space-y-2">
@@ -144,7 +146,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 bg-gray-500"
+                className="object-cover w-full rounded h-100 bg-gray-500 transition duration-300 ease-in-out hover:scale-110"
                 src="https://media.discordapp.net/attachments/807562739324157962/1082969835740352563/raspberrypi.png?width=434&height=434"
               />
               <div className="p-4 space-y-2">
@@ -167,7 +169,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 bg-gray-500"
+                className="object-cover w-full rounded h-100 bg-gray-500 transition duration-300 ease-in-out hover:scale-110"
                 src="https://media.discordapp.net/attachments/807562739324157962/1082969834863734915/corona.png?width=434&height=434"
               />
               <div className="p-4 space-y-2">
@@ -190,7 +192,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 bg-gray-500"
+                className="object-cover w-full rounded h-100 bg-gray-500 transition duration-300 ease-in-out hover:scale-110"
                 src="https://media.discordapp.net/attachments/807562739324157962/1082969834515611738/top2020.png?width=434&height=434"
               />
               <div className="p-4 space-y-2">
@@ -214,7 +216,7 @@ export default function Home() {
         </h1>
         <div className="container grid lg:grid-cols-3 justify-items-center gap-10 p-4 mx-auto flex-wrap pt-10">
           <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.8]">
-            <a href="#">
+            <a href="https://www.youtube.com/watch?v=Qkd6effeDVU">
               <Image
                 className="transition duration-300 ease-in-out hover:scale-110"
                 width={724}
@@ -226,7 +228,7 @@ export default function Home() {
           </div>
 
           <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.8]">
-            <a href="#">
+            <a href="https://www.youtube.com/watch?v=Bi1-rsEkoYc">
               <Image
                 className="transition duration-300 ease-in-out hover:scale-110"
                 width={724}
@@ -237,7 +239,7 @@ export default function Home() {
             </a>
           </div>
           <div class="max-w-sm rounded-lg shadow bg-black border-gray-700  hover:opacity-[0.8]">
-            <a href="#">
+            <a href="https://www.youtube.com/watch?v=QM5XDc4NQJo">
               <Image
                 className="transition duration-300 ease-in-out hover:scale-110"
                 width={1000}
@@ -258,7 +260,7 @@ export default function Home() {
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://github.com/NeuralNine/youtube-downloader-converter"
               className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
@@ -276,7 +278,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://github.com/NeuralNine/handwritten-digits-recognition"
               className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
@@ -296,7 +298,7 @@ export default function Home() {
 
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://github.com/NeuralNine/drawing-classifier"
               className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
@@ -314,7 +316,7 @@ export default function Home() {
             </a>
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://github.com/NeuralNine/stock-visualizer"
               className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
