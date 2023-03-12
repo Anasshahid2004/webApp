@@ -21,20 +21,20 @@ export default function Home() {
       </Head>
       <Script src="/sc.js" strategy="lazyOnload"></Script>
 
-      <nav>
+      <nav className="bg-black shadow md:flex md:items-center md:justify-evenly list-none px-6">
         <div className="flex justify-between items-center">
-          <Link href='/'>
-          <Image
-            className="inline w-[22%]"
-            width={1024}
-            height={774}
-            alt="img"
-            src="https://media.discordapp.net/attachments/807562739324157962/1080232878887161896/logo.png?width=1025&height=425"
-          ></Image>
+          <Link href="/">
+            <Image
+              className="inline w-[22%]"
+              width={1024}
+              height={774}
+              alt="img"
+              src="https://media.discordapp.net/attachments/807562739324157962/1080232878887161896/logo.png?width=1025&height=425"
+            ></Image>
           </Link>
         </div>
 
-        <ul>
+        <ul className="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-black w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 text-white">
           <li className="mx-4 my-6 md:my-0 ">
             <Link
               href="/"
@@ -108,13 +108,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#131313] text-gray-100">
+      <section className="bg-[#111111] text-gray-100">
         <h1 className="text-center text-[#FF7825] pt-16 pb-2 text-4xl font-bold">
           ALL POSTS
         </h1>
         <div className="container max-w-6xl p-4 mx-auto space-y-6 sm:space-y-12">
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            <a
+            <Link
               rel="noopener noreferrer"
               href="/mathematical-skills-needed-for-machine-learning"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
@@ -136,7 +136,7 @@ export default function Home() {
                   mathematical skills are fundamental. But is....
                 </p>
               </div>
-            </a>
+            </Link>
             <a
               rel="noopener noreferrer"
               href="#"
@@ -339,7 +339,10 @@ export default function Home() {
       <footer class="text-[#C4C4C4] body-font bg-black">
         <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-100">
+            <Link
+              href="/"
+              class="flex title-font font-medium items-center md:justify-start justify-center text-gray-100"
+            >
               <Image
                 className="h-auto inline w-full"
                 width={1024}
@@ -347,7 +350,7 @@ export default function Home() {
                 alt="img"
                 src="https://media.discordapp.net/attachments/807562739324157962/1080232878887161896/logo.png?width=1025&height=425"
               ></Image>
-            </a>
+            </Link>
             <p class="mt-2 text-md text-bold text-white text-center">
               Copyright &copy; 2019
             </p>
@@ -422,60 +425,51 @@ export default function Home() {
                 </li>
               </nav>
             </div>
-            <div class="lg:w-1/2 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-[#FF7825] tracking-widest text-sm mb-3">
+            <div class="mx-auto md:w-1/2  px-4">
+              <h2 class="title-font font-medium text-[#FF7825] text-md mb-3 text-center">
                 Social Media
               </h2>
-              <nav class="list-none mb-10 gap-2">
-                <li>
+              <div class="px-4 py-6 md:flex md:items-center md:justify-between">
+                <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0 mx-auto">
                   <Link
                     href="https://www.instagram.com/neuralnine"
                     class="text-white hover:text-[#FF7825]"
                   >
-                    <span class="fab fa-instagram fa-3x"></span>
+                    <span class="fab fa-instagram fa-2x"></span>
                   </Link>
-                </li>
-                <li>
+
                   <Link
                     href="https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
                     class="text-white hover:text-[#FF7825]"
                   >
-                    <span class="fab fa-youtube fa-3x"></span>
+                    <span class="fab fa-youtube fa-2x"></span>
                   </Link>
-                </li>
-                <li>
                   <Link
                     href="https://www.twitter.com/neuralnine"
                     class="text-white hover:text-[#FF7825]"
                   >
-                    <span class="fab fa-twitter fa-3x"></span>
+                    <span class="fab fa-twitter fa-2x"></span>
                   </Link>
-                </li>
-                <li>
                   <Link
                     href="https://www.linkedin.com/company/neuralnine/"
                     class="text-white hover:text-[#FF7825]"
                   >
-                    <span class="fab fa-linkedin fa-3x"></span>
+                    <span class="fab fa-linkedin fa-2x"></span>
                   </Link>
-                </li>
-                <li>
                   <Link
                     href="https://github.com/NeuralNine"
                     class="text-white hover:text-[#FF7825]"
                   >
-                    <span class="fab fa-github fa-3x"></span>
+                    <span class="fab fa-github fa-2x"></span>
                   </Link>
-                </li>
-                <li>
                   <Link
                     href="https://www.neuralnine.com/contact"
                     class="text-white hover:text-[#FF7825]"
                   >
-                    <span class="fa fa-envelope fa-3x"></span>
+                    <span class="fa fa-envelope fa-2x"></span>
                   </Link>
-                </li>
-              </nav>
+                </div>
+              </div>
             </div>
           </div>
         </div>

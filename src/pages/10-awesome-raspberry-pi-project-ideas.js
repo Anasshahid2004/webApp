@@ -13,9 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Mathematical Skills Needed For Machine Learning - NeuralNine
-        </title>
+        <title>10 AWESOME RASPBERRY PI PROJECT IDEAS - NeuralNine</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -95,16 +93,16 @@ export default function Home() {
           <h1 className="text-2xl font-bold leading-none sm:text-4xl">
             <span className="text-[#FF7825]">
               {" "}
-              MATHEMATICAL SKILLS NEEDED FOR MACHINE LEARNING{" "}
+              10 AWESOME RASPBERRY PI PROJECT IDEAS{" "}
             </span>
           </h1>
           <hr class="w-full h-0.5 mx-auto  bg-[#ccc] border-0 rounded my-4" />
           <Image
-            className="inline w-full"
+            className="inline w-fit"
             width={1024}
             height={1000}
             alt="img"
-            src="https://media.discordapp.net/attachments/807562739324157962/1082969836054921366/maths.png?width=999&height=999"
+            src="https://media.discordapp.net/attachments/807562739324157962/1084400949726019614/raspberrypi_1.png?width=1024&height=999"
           ></Image>
           <div className="flex flex-col items-start justify-between w-full md:flex-row md:items-center text-gray-400">
             <div className="flex md:space-x-2">
@@ -112,19 +110,19 @@ export default function Home() {
                 <span className="fa-regular fa-clock text-gray-300">
                   &nbsp;{" "}
                 </span>
-                8. April 2020 -
+                4. April 2020 -
               </p>
               <p className="text-sm">
                 <span className="fa-regular fa-folder text-gray-300">
                   &nbsp;{" "}
                 </span>
-                General -
+                General / Network Programming / Programming
               </p>
               <p className="text-sm">
                 <span className="fa-regular fa-comment text-gray-300">
                   &nbsp;{" "}
                 </span>
-                0 Comments
+                1 Comments
               </p>
             </div>
           </div>
@@ -137,190 +135,401 @@ export default function Home() {
               Introduction
             </h2>
             <p className="mt-4 mb-2 text-md">
-              When it comes to computer science and especially to machine
-              learning and data science, you oftentimes hear that mathematical
-              skills are fundamental. But is this really true? And if yes, which
-              areas of mathematics should one master? And why are they important
-              in the first place?
+              The Raspberry Pi is an awesome little piece of hardware. It is
+              essentially a minicomputer that costs less than 60$. Some older
+              versions even cost around 30$. But what can you do with it? This
+              is exactly the topic of today’s blog post. We are going to take a
+              look at ten of the most interesting and exciting Raspberry Pi
+              projects, which you can build yourself. This will also give you a
+              great opportunity to increase your programming and IT skills,
+              since the best way to learn is by implementing projects!
             </p>
             <p className="mt-4 mb-2 text-md">
-              Let me give you a quick answer, before I get into the details. If
-              you just want to develop software or do some freelance web
-              development, you don’t necessarily need a lot of higher math. To
-              use frameworks like Django, Spring, Angular etc. and do build
-              business applications, you won’t need complex theoretical
-              understanding. However, if you are really interested in machine
-              learning and you really want to master the subject, there is no
-              way around a hell lot of math. Same goes for theoretical computer
-              science. Wherever you need a lot of deep understanding and
-              whenever you want to innovate or research in such a field, math is
-              essential.
+              If you don’t know what a Raspberry Pi is, you can take a look at
+              some of the newest models:
+            </p>
+            <li>Rasberry Pi 4: </li>
+            <li>Rasberry Pi 3: </li>
+            <li>Rasberry Pi 3 B+: </li>
+            <p className="mt-4 mb-8 text-md">
+              As you can see, it’s just a little circuit board with some ports.
+              But this little thing can do much more than you might initially
+              think. So let’s take a look at some of the possibilities. Notice
+              however that we are not going to talk about the implementation of
+              these projects in this post. It’s only about the ideas. Let’s get
+              right into it!
+            </p>
+          </div>
+          <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
+            <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
+              1 - Full-Fledged Desktop Computer
+            </h2>
+            <div className="w-1/2 lg:w-3/5 mx-auto">
+              <Image
+                className="py-2 md:py-6 lg:py-10"
+                width={999}
+                height={999}
+                alt="img"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406756890923109/desktop.png?width=1024&height=999"
+              ></Image>
+            </div>
+            <p className="mt-4 mb-2 text-md">
+              In fact one thing that you can do with a Raspberry Pi is to
+              actually use it as a full-fledged desktop computer. Of course the
+              computation power is not even comparable to that of an actual
+              computer but you will still be able to surf the internet, do basic
+              office work and even watch some videos. The most exciting part
+              about that project is that you end up with a computer that costs
+              you less than 100$. However, you might want to add some additional
+              stuff like a cooler or even a mini-monitor.
+            </p>
+            <p className="mt-4 mb-2 text-md">
+              But which operating system should you install on your Raspberry Pi
+              desktop system? It’s totally up to you! You can install Ubuntu,
+              Mint, Debian, ArchLinux or you can even install Raspbian OS, which
+              is a system particularly made for Raspberry Pis.
             </p>
             <p className="mt-4 mb-8 text-md">
-              In this blog post we are going to talk about why exactly this is
-              the case. Also we will take a look at how the individual skills
-              are actually used in machine learning and computer science. So
-              let’s get into it.
+              More about this project:
+              <li>
+                You might want to add a cooler to your system: View on Amazon
+              </li>
+              <li>
+                You could also add a mini monitor specialized for Raspberry Pis:
+                View on Amazon
+              </li>
+              <li>
+                You will definitely need a keyboard, a mouse, a monitor and the
+                respective cables (HDMI).
+              </li>
+              <li>
+                It makes sense to put your Raspberry Pi into a case for safety.
+              </li>
+              <li>
+                There are complete Raspberry Pi starter-kits with most things
+                included: View on Amazon
+              </li>
             </p>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
-              Linear Algebra
+              2 - Retro Gaming Console
             </h2>
-            <div className="w-1/2 lg:w-1/3 mx-auto">
+            <div className="w-1/2 lg:w-3/5 mx-auto">
               <Image
                 className="py-2 md:py-6 lg:py-10"
-                width={999}
-                height={999}
+                width={497}
+                height={497}
                 alt="img"
-                src="https://media.discordapp.net/attachments/807562739324157962/1084086025040695306/1_1.png?width=397&height=397"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406756664426566/nes.png?width=958&height=534"
               ></Image>
             </div>
             <p className="mt-4 mb-2 text-md">
-              This one is probably the most important math field to master for
-              machine learning. Now you might be confused if you have never
-              programmed a machine learning algorithm yourself. If you have only
-              used libraries like Scikit-Learn, Tensorflow or Keras, you don’t
-              really see what is happening behind the scenes. Machine learning
-              is actually nothing but math. Datasets? They are just matrices!
-              The values you feed into your neural network? The neural network
-              itself? Matrices, Vectors, Arrays! It is all the same. Literally
-              everything that has to do with deep learning has to do with linear
-              algebra. And even if you use libraries like NumPy or Pandas, you
-              are constantly working with matrices and vectors.
+              Now of course you won’t be able to play the newest AAA games on
+              your little Raspberry Pi. But if you have a fable for retro games,
+              you can turn your minicomputer into a console like a Super
+              Nintendo or a Sega Mega Drive. For this you will need to configure
+              your Raspberry Pi in such a way that it always boots directly into
+              an emulator with all the desired games.
             </p>
             <p className="mt-4 mb-2 text-md">
-              For those of you who are not familiar with what linear algebra
-              actually is, let me give you a very quick overview. Linear algebra
-              is all about linear equations, linear systems, vectors and
-              matrices. It is about how you do calculations with them and what
-              they represent. It is a very theoretical field but its
-              applications are quite practical. For example think about a
-              convolutional neural network that recognizes different objects.
-              The convolutional layers of this network work with filters. And
-              what are these filters? They are matrices and the image we are
-              working with is also a matrix of pixels. What the neural network
-              does is, it calculates the dot product of the filter and a certain
-              area of pixels, in order to create the channels. You probably
-              start to realize why linear algebra might be important.
-            </p>
-            <p className="mt-4 mb-8 text-md">
-              But its not only neural networks where this is relevant. In
-              computer vision for example we are applying a lot of
-              transformations, filters and effects onto our images. Everything
-              here is done with matrices and vectors. It is essential to know
-              what is happening in the background, even if you use libraries
-              like Tensorflow or OpenCV. Because being a computer scientist is
-              not about just calling functions. It is about understanding what
-              is happening, getting an intuition about the algorithms and
-              finding solutions to problems. Therefore the theory is essential.
+              More about this project:
+              <li>
+                You might want to add a realistic gaming console case for the
+                feeling: View on Amazon
+              </li>
+              <li>
+                You might want to add some realistic controllers for the
+                feeling: View on Amazon
+              </li>
+              <li>
+                I also recommend using an old monitor or television for the
+                optimal feeling.
+              </li>
+              <li>
+                You can make use of the RetroPie project for all of this: Retro
+                Pie
+              </li>
             </p>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
-              Calculus & Optimization
+              3 - Build Your Own Smart TV
             </h2>
-            <div className="w-1/2 lg:w-1/3 mx-auto">
+            <div className="w-1/2 lg:w-2/5 mx-auto">
               <Image
                 className="py-2 md:py-6 lg:py-10"
-                width={999}
-                height={999}
+                width={497}
+                height={497}
                 alt="img"
-                src="https://media.discordapp.net/attachments/807562739324157962/1084088812549980210/2.png?width=999&height=999"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406756421148692/tv-1024x877.png?width=507&height=434"
               ></Image>
             </div>
             <p className="mt-4 mb-2 text-md">
-              Calculus is another field that is fundamental for computer
-              science. Actually it is even more important when it comes to
-              hardware programming, because there we work with frequencies and
-              there calculus is used in many different ways. But for machine
-              learning there is also a very big application of calculus and this
-              is optimization. If you are into machine learning, you probably
-              know about the gradient descent algorithm. It is the algorithm
-              that minimizes the output of the loss function by tweaking the
-              weights and biases. If you have read the sixth volume of The
-              Python Bible series, which is about neural networks, you know that
-              this algorithm consists of nothing but calculus. It is all about
-              calculating the direction of steepest ascent and then going a tiny
-              step into the opposite direction.
+              Another interesting thing you can do with a Raspberry Pi is to
+              build your own Smart TV. For this you don’t need anything but a
+              monitor, a Raspberry Pi and your smartphone. How this works is
+              using a software called Kodi. You will basically combine the
+              minicomputer and the monitor into a TV and then use your phone as
+              a remote control. Now of course you will need to install some
+              additional packages and make some adjustments, but the research is
+              half of the project and it is fun! Be persistent and creative!
             </p>
             <p className="mt-4 mb-2 text-md">
-              Another important reason to learn calculus is that it allows you
-              to see how a function changes over time. When you are looking at
-              sequential data like share prices this is very important. Again,
-              if you are interested in really mastering machine learning, you
-              need to know what is happening behind the scenes. This helps you
-              with troubleshooting but also with innovation.
+              More about this project:
+              <li>
+                You might want to use a big monitor to get the perfect TV
+                feeling.
+              </li>
+              <li>Software like Kodi makes this process quite easy: Kodi</li>
+              <li>
+                You will probably need the OMX Image Viewer Software: OMX Image
+                Viewer
+              </li>
             </p>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
-              Statistics & Probability Theory​
+              4 - Media Center
             </h2>
             <div className="w-1/2 lg:w-1/3 mx-auto">
               <Image
                 className="py-2 md:py-6 lg:py-10"
-                width={999}
-                height={999}
+                width={497}
+                height={497}
                 alt="img"
-                src="https://media.discordapp.net/attachments/807562739324157962/1084088812306714664/3.png?width=1400&height=1400"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406756207251547/media.png"
               ></Image>
             </div>
             <p className="mt-4 mb-2 text-md">
-              These two are probably the most obvious fields on this list I
-              think. Actually you could say that machine learning and data
-              science are just branches of statistics. For example linear
-              regression or logistic regression are just statistical algorithms.
-              Of course you can always implement everything without
-              understanding statistics at all. But the problem is that then you
-              are not at all aware of all the limitations and biases of the
-              algorithms you are using. You have no clue which algorithm is the
-              proper one for a given problem. It is easy to just use the
-              algorithms but in order to solve problems, you need to know how an
-              algorithm works and what it is suited for.
+              Using the same software and some media player, you can also
+              transform your Raspberry Pi into a media center. You can then use
+              it to watch movies, listen to music and more. For this project you
+              will not need a lot of hardware. Just the basics like a case, a
+              cooler and some cables. Similar to the Smart TV you can use a
+              monitor and your phone as the TV and the remote control.
             </p>
             <p className="mt-4 mb-2 text-md">
-              Probability theory is also essential for data science. This one is
-              a bit tricky though. Oftentimes we are interested in the
-              probability of a certain event happening. However the probability
-              theory that we use in machine learning is more about how
-              statistical algorithms work with probabilities. That is also the
-              reason why these two are combined here. Algorithms like Naive
-              Bayes for example are based on probability theory and statistics.
+              More about this project:
+              <li>A cooler and a case are definitely recommended.</li>
+              <li>You will also use the Kodi software for this project.</li>
+              <li>
+                Its recommended to use newer Raspberry Pi Models for this
+                project.
+              </li>
+              <li>Keep things legal here!</li>
             </p>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
-              Graph Theory​
+              5 - Motion Detection System With Camera
+            </h2>
+            <div className="w-1/2 lg:w-3/5 mx-auto">
+              <Image
+                className="py-2 md:py-6 lg:py-10"
+                width={497}
+                height={497}
+                alt="img"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406755972366468/surveillance-1024x631.png?width=704&height=434"
+              ></Image>
+            </div>
+            <p className="mt-4 mb-2 text-md">
+              Now things are getting interesting and a little more geeky. Since
+              you can run Python on your Raspberry Pi, you can also write some
+              computer vision scripts on it. Combined with a camera you can
+              actually build your own little surveillance system. For this you
+              will of course need an additional camera. You can then run a
+              script that uses an algorithm like background subtraction to
+              filter out movements. When a certain threshold is reached, you can
+              then start recording and make the Pi send you a mail.
+            </p>
+            <p className="mt-4 mb-2 text-md">
+              More about this project:
+              <li>
+                For this project you will need a camera for your Raspberry Pi:
+                View on Amazon
+              </li>
+              <li>Advanced computer vision knowledge is helpful.</li>
+              <li>
+                The Python Bible Volume 7 about Computer Vision might help you
+                with that: Go To Books
+              </li>
+              <li>You can also set up a live stream of the video content.</li>
+            </p>
+          </div>
+          <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
+            <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
+              6 - Pi-Hole Ad Blocker
             </h2>
             <div className="w-1/2 lg:w-1/3 mx-auto">
               <Image
                 className="py-2 md:py-6 lg:py-10"
-                width={999}
-                height={999}
+                width={497}
+                height={497}
                 alt="img"
-                src="https://media.discordapp.net/attachments/807562739324157962/1084088812109574204/4_1.png?width=999&height=999"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406755766837248/Pi-hole_Logo.png?width=413&height=434"
               ></Image>
             </div>
             <p className="mt-4 mb-2 text-md">
-              Last but not least let us get to a mathematical giant that
-              actually really surprised me when I started studying computer
-              science. I am talking about graph theory. I always liked graph
-              theory because it was an interesting and visual way to apply math.
-              But what I didn’t know is how much it is actually used in computer
-              science. Things like algorithms, data structures and path finding
-              algorithms all make use of graph theory.
+              A lot of ads can actually be blocked with a simple Ad Blocker in
+              your browser. But on certain devices it is pretty hard to get rid
+              of Ads. For this you can set up a so-called Pi-Hole, which then
+              filters all traffic directly from your router. It is like a local
+              black hole for advertisements. Pretty cool!
             </p>
             <p className="mt-4 mb-2 text-md">
-              In machine learning graph theory is extremely relevant because it
-              provides a framework for working with interconnections. We are
-              talking about things like links between websites, social networks
-              etc. It is a good way to find ways to store and query our data in
-              an efficient way. There are even graph databases which are used by
-              companies like Facebook. Wherever you have a huge amount of data
-              with lots of interconnections, graph theory will help you
-              tremendously. It is an essential field for all of computer
-              science.
+              More about this project:
+              <li>
+                There is a complete Pi-Hole software for this project: Pi-Hole
+              </li>
+              <li>
+                You might have to fill up the list of blocked ads manually.
+              </li>
+              <li>Some networking knowledge is beneficial for this project.</li>
+            </p>
+          </div>
+          <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
+            <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
+              7 - Robotics
+            </h2>
+            <div className="w-1/2 lg:w-3/5 mx-auto">
+              <Image
+                className="py-2 md:py-6 lg:py-10"
+                width={497}
+                height={497}
+                alt="img"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406755519385620/robot-1024x706.png?width=629&height=434"
+              ></Image>
+            </div>
+            <p className="mt-4 mb-2 text-md">
+              Now this is probably one of the most interesting but also one of
+              the hardest projects. You can actually turn your Raspberry Pi into
+              a robot of all kinds. It could be a robot with sensors that tries
+              to find a way out of a labyrinth. It could be a robot that is
+              built for fighting other robots. It could also be a little robot
+              helper. For this you will of course need a lot of different
+              additional hardware. But this project is extremely exciting if you
+              are interested in hardware.
+            </p>
+            <p className="mt-4 mb-2 text-md">
+              More about this project:
+              <li>There are also some already built Pi robots</li>
+              <li className="">Kit 1: View on Amazon</li>
+              <li>Kit 2: View on Amazon</li>
+              <li>Building them yourself is half of the fun!</li>
+            </p>
+          </div>
+          <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
+            <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
+              8 - Smart Home Automation
+            </h2>
+            <div className="w-1/2 lg:w-1/3 mx-auto">
+              <Image
+                className="py-2 md:py-6 lg:py-10"
+                width={497}
+                height={497}
+                alt="img"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406755305472100/home-1024x1024.png?width=434&height=434"
+              ></Image>
+            </div>
+            <p className="mt-4 mb-2 text-md">
+              Chances are you already have some elements of a smart home or you
+              at least want to get some. In this case you can use your Raspberry
+              Pi as the central control system for your smart devices at home.
+              You can make it control lamps, fridges, microwaves, computers,
+              your Smart TV and more. There is already a software for that and
+              not a lot of hardware is needed here.
+            </p>
+            <p className="mt-4 mb-2 text-md">
+              More about this project:
+              <li>
+                You will need a home automation software: Home Automation
+                Software.
+              </li>
+              <li>
+                For this to be useful, it makes sense to already have some smart
+                devices or buy some.
+              </li>
+              <li>Smart Light: View on Amazon.</li>
+            </p>
+          </div>
+          <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
+            <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
+              9 - Wifi Extender
+            </h2>
+            <div className="w-1/2 lg:w-6/12 mx-auto">
+              <Image
+                className="py-2 md:py-6 lg:py-10"
+                width={497}
+                height={497}
+                alt="img"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406755011862598/router-1024x835.png?width=532&height=434"
+              ></Image>
+            </div>
+            <p className="mt-4 mb-2 text-md">
+              This is probably one of the most useful Raspberry Pi applications,
+              especially for larger homes. It is also one of the most simple
+              projects. Your internet router probably has to handle multiple
+              devices and covers only a certain area of your home. With a simple
+              WiFi-extender you can easily make this area larger and also be
+              able to handle more devices.
+            </p>
+            <p className="mt-4 mb-2 text-md">
+              More about this project:
+              <li>
+                It’s actually very simple and doesn’t require any additional
+                hardware except for maybe a case.
+              </li>
+              <li>You can add a VPN service to extend its functionality..</li>
+            </p>
+          </div>
+          <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
+            <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
+              10 - AI Voice Assistant
+            </h2>
+            <div className="w-1/2 lg:w-1/3 mx-auto">
+              <Image
+                className="py-2 md:py-6 lg:py-10"
+                width={497}
+                height={497}
+                alt="img"
+                src="https://media.discordapp.net/attachments/807562739324157962/1084406754739245077/mic.png?width=434&height=434"
+              ></Image>
+            </div>
+            <p className="mt-4 mb-2 text-md">
+              If you are like me, things like Amazon’s Alexa or Google Home
+              excite you, but you actually want to build things yourself. You
+              want to have your own customized voice assistant without any
+              limits and you find joy in building it yourself. You want it to
+              play music directly out of your media center instead of being
+              limited to a couple of commercial services. You want it to run
+              your own custom Python scripts. That’s why one of the greatest
+              projects is to turn your Raspberry Pi into an AI Voice Assistant.
+              For this project however, you will need a lot of programming
+              knowledge. Especially Natural Language Processing and Data
+              Science.
+            </p>
+            <p className="mt-4 mb-2 text-md">
+              More about this project:
+              <li>
+                To build it yourself you will need a lot of programming
+                knowledge.
+              </li>
+              <li>
+                Alternatively you can use the Google assistant: Google Assistant
+              </li>
+              <li>
+                You will definitely need a microphone for this one: View on
+                Amazon
+              </li>
+              <li>
+                A camera might also be beneficial, depending on what you are
+                doing: View on Amazon
+              </li>
+              <li>
+                For the perfect feeling, you might want to add a little monitor:
+                View on Amazon
+              </li>
             </p>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
