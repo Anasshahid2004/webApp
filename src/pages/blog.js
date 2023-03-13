@@ -92,23 +92,31 @@ export default function Home() {
         <h1 className="text-center text-[#FF7825] pt-20 pb-10 text-4xl font-[700]">
           WHAT ARE YOU INTERESTED IN?
         </h1>
-        <div className="container max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center">
+        <div className="relative max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center">
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
             <Link
               href="/machine-learning"
               rel="noopener noreferrer"
               className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
-              <h1 className="object-cover w-full rounded h-50">
-                <span className="fa fa-laptop-code fa-3x text-[#FF7825]"></span>
-              </h1>
-              <div className="p-6 space-y-2">
-                <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
-                  Machine Learning
-                </h3>
-                <p className="text-[18px] py-4">
-                  Posts about Machine Learning and Artificial Intelligence.
-                </p>
+              <div className="container">
+                <div className="overlay">
+                  <div class="text">
+                    <span class="fa fa-laptop-code fa-3x block p-4"></span>
+                    Go To Machine Learning
+                  </div>
+                </div>
+                <h1 className="object-cover w-full rounded h-50">
+                  <span className="fa fa-laptop-code fa-3x text-[#FF7825]"></span>
+                </h1>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
+                    Machine Learning
+                  </h3>
+                  <p className="text-[18px] py-4">
+                    Posts about Machine Learning and Artificial Intelligence.
+                  </p>
+                </div>
               </div>
             </Link>
             <Link
@@ -116,16 +124,24 @@ export default function Home() {
               href="/finance"
               className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
-              <h1 className="object-cover w-full rounded h-50">
-                <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
-              </h1>
-              <div className="p-6 space-y-2">
-                <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
-                  Finance
-                </h3>
-                <p className="text-[18px] py-4">
-                  Posts about Finance and Data Science.
-                </p>
+              <div className="container">
+                <div className="overlay">
+                  <div class="text">
+                    <span className="fa fa-chart-line fa-3x text-black block p-4"></span>
+                    Go To Finance
+                  </div>
+                </div>
+                <h1 className="object-cover w-full rounded h-50">
+                  <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
+                </h1>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
+                    Finance
+                  </h3>
+                  <p className="text-[18px] py-4">
+                    Posts about Finance and Data Science.
+                  </p>
+                </div>
               </div>
             </Link>
 
@@ -134,16 +150,24 @@ export default function Home() {
               href="/networking"
               className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
             >
-              <h1 className="object-cover w-full rounded h-50">
-                <span className="fa fa-globe fa-3x text-[#FF7825]"></span>
-              </h1>
-              <div className="p-6 space-y-2">
-                <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
-                  Networking
-                </h3>
-                <p className="text-[18px] py-4">
-                  Posts about Networking and Hacking
-                </p>
+              <div className="container">
+                <div className="overlay">
+                  <div class="text">
+                    <span className="fa fa-globe fa-3x text-black p-4 block"></span>
+                    Go To Networking
+                  </div>
+                </div>
+                <h1 className="object-cover w-full rounded h-50">
+                  <span className="fa fa-globe fa-3x text-[#FF7825]"></span>
+                </h1>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
+                    Networking
+                  </h3>
+                  <p className="text-[18px] py-4">
+                    Posts about Networking and Hacking
+                  </p>
+                </div>
               </div>
             </Link>
             <Link
@@ -151,16 +175,24 @@ export default function Home() {
               href="/other"
               className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
             >
-              <h1 className="object-cover w-full rounded h-50">
-                <span className="fa fa-list fa-3x text-[#FF7825]"></span>
-              </h1>
-              <div className="p-6 space-y-2">
-                <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
-                  Rankings and Lists.
-                </h3>
-                <p className="text-[18px] py-4">
-                  Rankings and Lists of all kind.
-                </p>
+              <div className="container">
+                <div className="overlay">
+                  <div class="text">
+                    <span className="fa fa-list fa-3x text-black p-4 block"></span>
+                    Go To Rankings and Lists
+                  </div>
+                </div>
+                <h1 className="object-cover w-full rounded h-50">
+                  <span className="fa fa-list fa-3x text-[#FF7825]"></span>
+                </h1>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
+                    Rankings and Lists.
+                  </h3>
+                  <p className="text-[18px] py-4">
+                    Rankings and Lists of all kind.
+                  </p>
+                </div>
               </div>
             </Link>
           </div>

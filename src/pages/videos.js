@@ -106,7 +106,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 opacity-[0.8]"
+                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 hover:opacity-[0.8]"
                 src="https://media.discordapp.net/attachments/807562739324157962/1083041613409943632/Kopie-von-Kopie-von-Kopie-von-Kopie-von-Text-Platzhalter-1024x576.png?width=772&height=434"
               />
             </Link>
@@ -119,7 +119,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 opacity-[0.8]"
+                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 hover:opacity-[0.8]"
                 src="https://media.discordapp.net/attachments/807562739324157962/1083041613162500106/int-1-1024x576.png?width=772&height=434"
               />
             </Link>
@@ -132,7 +132,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 opacity-[0.8]"
+                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 hover:opacity-[0.8]"
                 src="https://media.discordapp.net/attachments/807562739324157962/1083041612902432908/candle-1024x576.png?width=772&height=434"
               />
             </Link>
@@ -145,7 +145,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 opacity-[0.8]"
+                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 hover:opacity-[0.8]"
                 src="https://media.discordapp.net/attachments/807562739324157962/1083041612663378011/ds-1-1024x576.png?width=772&height=434"
               />
             </Link>
@@ -158,7 +158,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 opacity-[0.8]"
+                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 hover:opacity-[0.8]"
                 src="https://media.discordapp.net/attachments/807562739324157962/1083041612453646507/ml-1024x576.png?width=772&height=434"
               />
             </Link>
@@ -171,7 +171,7 @@ export default function Home() {
                 alt="presentation"
                 width={434}
                 height={434}
-                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 opacity-[0.8]"
+                className="object-cover w-full rounded h-100 transition duration-300 ease-in-out hover:scale-110 hover:opacity-[0.8]"
                 src="https://media.discordapp.net/attachments/807562739324157962/1083041612185206784/port-1024x576.png?width=772&height=434"
               />
             </Link>
