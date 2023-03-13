@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const NavBar = ({firstName}) => {
+const NavBar = () => {
   return (
     <>
-          <nav className="bg-black shadow md:flex md:items-center md:justify-evenly list-none px-6">
+      <nav className="bg-black shadow md:flex md:items-center md:justify-evenly list-none px-6">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image
@@ -24,7 +24,7 @@ const NavBar = ({firstName}) => {
               href="/"
               className="text-lg hover:text-orange-500 duration-500"
             >
-              {firstName}
+              HOME
             </Link>
           </li>
           <li className="mx-4 my-6 md:my-0 ">
@@ -77,10 +77,8 @@ const NavBar = ({firstName}) => {
           </li>
         </ul>
       </nav>
-
-
     </>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

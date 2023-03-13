@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Typewriter from "typewriter-effect";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,19 +23,19 @@ export default function Home() {
         />
       </Head>
 
-    <NavBar firstName={"HOME"}/>
+      <NavBar />
 
       <section>
         <div className="flex flex-col justify-center items-center text-white bg-[#0a0a0a] min-h-[100vh]">
           <Image
-            className="sm:w-[37%] w-full"
+            className="max-w-md md:max-w-lg xl:max-w-xl"
             width={1024}
             height={700}
             alt="img"
             src="https://media.discordapp.net/attachments/807562739324157962/1081366667449348247/hero.png"
           ></Image>
-          <h2 className="text-white md:text-3xl">
-          <Typewriter
+          <h2 className="text-white text-2xl md:text-3xl">
+            <Typewriter
               options={{
                 strings: ["lets_develop(brains);"],
                 autoStart: true,
@@ -44,7 +45,7 @@ export default function Home() {
               }}
             />
           </h2>
-          <span className="p-7 fa fa-angle-double-down fa-3x text-orange-600"></span>
+          <span className="glow p-7 fa fa-angle-double-down fa-3x text-orange-600"></span>
         </div>
       </section>
 
@@ -210,15 +211,15 @@ export default function Home() {
 
       <section className="bg-[#111] text-gray-100 pb-20">
         <h1 className="text-center text-[#FF7825] pt-20 pb-10 text-4xl font-[700]">
-        <Typewriter
-              options={{
-                strings: ["GITHUB PROJECTS"],
-                autoStart: true,
-                loop: true,
-                delay: 100,
-                deleteSpeed: 40,
-              }}
-            />
+          <Typewriter
+            options={{
+              strings: ["GITHUB PROJECTS"],
+              autoStart: true,
+              loop: true,
+              delay: 100,
+              deleteSpeed: 40,
+            }}
+          />
         </h1>
         <div className="relative max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center">
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
@@ -229,9 +230,8 @@ export default function Home() {
             >
               <div className="container">
                 <div className="overlay">
-                  
-                <div class="text">
-                      <span class="fa fa-laptop-code fa-3x block p-4"></span>
+                  <div class="text">
+                    <span class="fa fa-laptop-code fa-3x block p-4"></span>
                     Go To Machine Learning
                   </div>
                 </div>
@@ -256,7 +256,7 @@ export default function Home() {
               <div className="container">
                 <div className="overlay">
                   <div class="text">
-                      <span className="fa fa-chart-line fa-3x text-black block p-4"></span>
+                    <span className="fa fa-chart-line fa-3x text-black block p-4"></span>
                     Go To Finance
                   </div>
                 </div>
@@ -281,8 +281,8 @@ export default function Home() {
             >
               <div className="container">
                 <div className="overlay">
-                <div class="text">
-                      <span className="fa fa-globe fa-3x text-black p-4 block"></span>
+                  <div class="text">
+                    <span className="fa fa-globe fa-3x text-black p-4 block"></span>
                     Go To Networking
                   </div>
                 </div>
@@ -306,9 +306,9 @@ export default function Home() {
             >
               <div className="container">
                 <div className="overlay">
-                <div class="text">
-                      <span className="fa fa-list fa-3x text-black p-4 block"></span>
-                       Go To Rankings and Lists
+                  <div class="text">
+                    <span className="fa fa-list fa-3x text-black p-4 block"></span>
+                    Go To Rankings and Lists
                   </div>
                 </div>
                 <h1 className="object-cover w-full rounded h-50">
@@ -327,145 +327,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <footer class="text-[#C4C4C4] body-font bg-black">
-        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <Link
-              href="/"
-              class="flex title-font font-medium items-center md:justify-start justify-center text-gray-100"
-            >
-              <Image
-                className="h-auto inline w-full"
-                width={1024}
-                height={774}
-                alt="img"
-                src="https://media.discordapp.net/attachments/807562739324157962/1080232878887161896/logo.png?width=1025&height=425"
-              ></Image>
-            </Link>
-            <p class="mt-2 text-md text-bold text-white text-center">
-              Copyright &copy; 2019
-            </p>
-          </div>
-          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 text-center">
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-[#FF7825] text-md mb-3">
-                Navigation
-              </h2>
-              <nav class="list-none mb-10 flex-col items-center">
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link href="/" className="hover:text-orange-500 duration-500">
-                    Home
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/blog"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    Blog
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/books"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    Books
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/videos"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    Videos
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/shop"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    Shop
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/about"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    About
-                  </Link>
-                </li>
-              </nav>
-            </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-[#FF7825] text-md mb-3 text-center">
-                Legal
-              </h2>
-              <nav class="list-none mb-10 flex-col items-center ">
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link href="/" className="hover:text-orange-500 duration-500">
-                    Privacy Policy
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link href="/" className="hover:text-orange-500 duration-500">
-                    Terms and Conditions
-                  </Link>
-                </li>
-              </nav>
-            </div>
-            <div class="mx-auto md:w-1/2  px-4">
-              <h2 class="title-font font-medium text-[#FF7825] text-md mb-3 text-center">
-                Social Media
-              </h2>
-              <div class="px-4 py-6 md:flex md:items-center md:justify-between">
-                <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0 mx-auto">
-                  <Link
-                    href="https://www.instagram.com/neuralnine"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-instagram fa-2x"></span>
-                  </Link>
-
-                  <Link
-                    href="https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-youtube fa-2x"></span>
-                  </Link>
-                  <Link
-                    href="https://www.twitter.com/neuralnine"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-twitter fa-2x"></span>
-                  </Link>
-                  <Link
-                    href="https://www.linkedin.com/company/neuralnine/"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-linkedin fa-2x"></span>
-                  </Link>
-                  <Link
-                    href="https://github.com/NeuralNine"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-github fa-2x"></span>
-                  </Link>
-                  <Link
-                    href="https://www.neuralnine.com/contact"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fa fa-envelope fa-2x"></span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
