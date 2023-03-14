@@ -94,11 +94,11 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-            <div class="mx-auto md:w-1/2  px-4">
+            <div class="mx-auto md:w-1/2">
               <h2 class="title-font font-medium text-[#FF7825] text-md mb-3 text-center">
                 Social Media
               </h2>
-              <div class="px-4 py-6 md:flex md:items-center md:justify-between">
+              <div class="py-6 md:flex md:items-center md:justify-between">
                 <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0 mx-auto">
                   <Link
                     href="https://www.instagram.com/neuralnine"

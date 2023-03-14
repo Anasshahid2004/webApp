@@ -31,7 +31,7 @@ export default function Home() {
             <Link
               href="/machine-learning"
               rel="noopener noreferrer"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              className="w-full py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
@@ -47,7 +47,7 @@ export default function Home() {
                   <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
                     Machine Learning
                   </h3>
-                  <p className="text-[18px] py-4">
+                  <p className="text-[18px] py-4 max-h-20">
                     Posts about Machine Learning and Artificial Intelligence.
                   </p>
                 </div>
@@ -56,7 +56,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="/finance"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              className="w-full py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
@@ -72,7 +72,7 @@ export default function Home() {
                   <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
                     Finance
                   </h3>
-                  <p className="text-[18px] py-4">
+                  <p className="text-[18px] py-4 max-h-20">
                     Posts about Finance and Data Science.
                   </p>
                 </div>
@@ -82,7 +82,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="/networking"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
+              className="w-full py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
@@ -98,7 +98,7 @@ export default function Home() {
                   <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
                     Networking
                   </h3>
-                  <p className="text-[18px] py-4">
+                  <p className="text-[18px] py-4 max-h-20">
                     Posts about Networking and Hacking
                   </p>
                 </div>
@@ -107,7 +107,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="/other"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
+              className="w-full py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
@@ -123,7 +123,7 @@ export default function Home() {
                   <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
                     Rankings and Lists.
                   </h3>
-                  <p className="text-[18px] py-4">
+                  <p className="text-[18px] py-4 max-h-20">
                     Rankings and Lists of all kind.
                   </p>
                 </div>
@@ -210,7 +210,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -233,7 +233,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -257,7 +257,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -280,7 +280,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -303,7 +303,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -326,7 +326,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -349,7 +349,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -372,7 +372,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -395,7 +395,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -418,7 +418,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -441,7 +441,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"
@@ -464,7 +464,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black "
             >
               <Image
                 alt="presentation"

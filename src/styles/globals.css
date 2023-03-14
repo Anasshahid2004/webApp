@@ -50,10 +50,10 @@ body{
 .overlay {
   position: absolute;
   top: -55px;
-  bottom: 0;
+  bottom: -55px;
   left: 0;
   right: 0;
-  height: 144%;
+  max-height: 160%;
   width: 100%;
   opacity: 0;
   transition: .4s ease-in-out;

@@ -28,7 +28,7 @@ export default function Home() {
       <section>
         <div className="flex flex-col justify-center items-center text-white bg-[#0a0a0a] min-h-[100vh]">
           <Image
-            className="max-w-md md:max-w-lg xl:max-w-xl"
+            className="md:max-w-lg xl:max-w-xl"
             width={1024}
             height={700}
             alt="img"
@@ -61,7 +61,7 @@ export default function Home() {
             }}
           />
         </h1>
-        <div className="container max-w-6xl p-4 mx-auto space-y-6 sm:space-y-12">
+        <div className="container max-w-6xl p-4 mx-auto space-y-6 sm:space-y-12 sm:min-h-full">
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <Link
               rel="noopener noreferrer"
@@ -135,7 +135,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
                 alt="presentation"
@@ -209,126 +209,126 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#111] text-gray-100 pb-20">
-        <h1 className="text-center text-[#FF7825] pt-20 pb-10 text-4xl font-[700]">
-          <Typewriter
-            options={{
-              strings: ["GITHUB PROJECTS"],
-              autoStart: true,
-              loop: true,
+       <section className="bg-[#111] text-gray-100 pb-20">
+         <h1 className="text-center text-[#FF7825] pt-20 pb-10 text-4xl font-[700]">
+           <Typewriter
+             options={{
+               strings: ["GITHUB PROJECTS"],
+               autoStart: true,
+               loop: true,
               delay: 100,
               deleteSpeed: 40,
             }}
           />
         </h1>
-        <div className="relative max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center">
+        <div className="relative max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center sm:pb-50">
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
             <Link
-              href="/machine-learning"
+              href="https://github.com/NeuralNine/youtube-downloader-converter"
               rel="noopener noreferrer"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
                   <div class="text">
-                    <span class="fa fa-laptop-code fa-3x block p-4"></span>
-                    Go To Machine Learning
+                    <span class="fab fa-github fa-2x block p-2"></span>
+                    Visit Repository
                   </div>
                 </div>
                 <h1 className="object-cover w-full rounded h-50">
-                  <span className="fa fa-laptop-code fa-3x text-[#FF7825]"></span>
-                </h1>
-                <div className="p-6 space-y-2">
-                  <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
-                    Machine Learning
-                  </h3>
-                  <p className="text-[18px] py-4">
-                    Posts about Machine Learning and Artificial Intelligence.
-                  </p>
-                </div>
-              </div>
-            </Link>
-            <Link
-              rel="noopener noreferrer"
-              href="/finance"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
-            >
-              <div className="container">
-                <div className="overlay">
-                  <div class="text">
-                    <span className="fa fa-chart-line fa-3x text-black block p-4"></span>
-                    Go To Finance
-                  </div>
-                </div>
-                <h1 className="object-cover w-full rounded h-50">
-                  <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
-                </h1>
-                <div className="p-6 space-y-2">
-                  <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
-                    Finance
-                  </h3>
-                  <p className="text-[18px] py-4">
-                    Posts about Finance and Data Science.
-                  </p>
-                </div>
-              </div>
-            </Link>
+                   <span className="fab fa-youtube fa-3x text-[#FF7825]"></span>
+                 </h1>
+                 <div className="p-6 space-y-2">
+                   <h3 className="text-[#FF7825] text-2xl font-[600] group-hover:underline group-focus:underline">
+                     YouTube Video Downloader
+                   </h3>
+                   <p className="text-[16px] sm:max-h-14 py-4">
+                     A simple Python script that is able to download YouTube videos or playlists and convert them into MP3.
+                   </p>
+                 </div>
+               </div>
+             </Link>
+             <Link
+               rel="noopener noreferrer"
+               href="https://github.com/NeuralNine/handwritten-digits-recognition"
+               className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+             >
+               <div className="container">
+                 <div className="overlay">
+                   <div class="text">
+                   <span class="fab fa-github fa-2x block p-2"></span>
+                     Visit Repository
+                   </div>
+                 </div>
+                 <h1 className="object-cover w-full rounded h-50">
+                   <span className="fa fa-pencil fa-3x text-[#FF7825]"></span>
+                 </h1>
+                 <div className="p-6 space-y-2">
+                   <h3 className="text-[#FF7825] text-2xl font-[600] group-hover:underline group-focus:underline">
+                     Handwritten Digit Recognition
+                   </h3>
+                   <p className="text-[16px] sm:max-h-14 py-4">
+                   A script that trains a model to recognize handwritten digits using the MNIST data set. Then it loads external files and uses the neural network to predict what digits they are.
+                   </p>
+                 </div>
+               </div>
+             </Link>
 
-            <Link
-              rel="noopener noreferrer"
-              href="/networking"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
-            >
-              <div className="container">
-                <div className="overlay">
-                  <div class="text">
-                    <span className="fa fa-globe fa-3x text-black p-4 block"></span>
-                    Go To Networking
-                  </div>
-                </div>
-                <h1 className="object-cover w-full rounded h-50">
-                  <span className="fa fa-globe fa-3x text-[#FF7825]"></span>
-                </h1>
-                <div className="p-6 space-y-2">
-                  <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
-                    Networking
-                  </h3>
-                  <p className="text-[18px] py-4">
-                    Posts about Networking and Hacking
-                  </p>
-                </div>
-              </div>
-            </Link>
-            <Link
-              rel="noopener noreferrer"
-              href="/other"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
-            >
-              <div className="container">
-                <div className="overlay">
-                  <div class="text">
-                    <span className="fa fa-list fa-3x text-black p-4 block"></span>
-                    Go To Rankings and Lists
-                  </div>
-                </div>
-                <h1 className="object-cover w-full rounded h-50">
-                  <span className="fa fa-list fa-3x text-[#FF7825]"></span>
-                </h1>
-                <div className="p-6 space-y-2">
-                  <h3 className="text-[#FF7825] text-3xl font-[700] group-hover:underline group-focus:underline">
-                    Rankings and Lists.
-                  </h3>
-                  <p className="text-[18px] py-4">
-                    Rankings and Lists of all kind.
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
+             <Link
+               rel="noopener noreferrer"
+               href="https://github.com/NeuralNine/drawing-classifier"
+               className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+             >
+               <div className="container">
+                 <div className="overlay">
+                   <div class="text">
+                   <span class="fab fa-github fa-2x block p-2"></span>
+                     Visit Repository
+                   </div>
+                 </div>
+                 <h1 className="object-cover w-full rounded h-50">
+                   <span className="fa fa-paintbrush fa-3x text-[#FF7825]"></span>
+                 </h1>
+                 <div className="p-6 space-y-2">
+                   <h3 className="text-[#FF7825] text-2xl font-[600] group-hover:underline group-focus:underline">
+                   Drawing Classifier
+                   </h3>
+                   <p className="text-[16px] sm:max-h-14 py-4">
+                   A Python application which uses machine learning classification algorithms to classify drawings of the user.
+                   </p>
+                 </div>
+               </div>
+             </Link>
+             <Link
+               rel="noopener noreferrer"
+               href="https://github.com/NeuralNine/stock-visualizer"
+               className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+             >
+               <div className="container">
+                 <div className="overlay">
+                   <div class="text">
+                   <span class="fab fa-github fa-2x block p-2"></span>
+                     Visit Repository
+                   </div>
+                 </div>
+                 <h1 className="object-cover w-full rounded h-50">
+                   <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
+                 </h1>
+                 <div className="p-6 space-y-2">
+                   <h3 className="text-[#FF7825] text-2xl font-[600] group-hover:underline group-focus:underline">
+                   Stock Visualizer
+                   </h3>
+                   <p className="text-[16px] sm:max-h-14 py-4">
+                   A Python application that visualizes stock data using professional candlestick charts.
+                   </p>
+                 </div>
+               </div>
+             </Link>
+           </div>
+         </div>
+       </section>
+       <Footer/>
 
-      <Footer />
     </>
   );
 }

@@ -39,7 +39,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
                 alt="presentation"
@@ -62,7 +62,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
                 alt="presentation"
@@ -85,7 +85,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
                 alt="presentation"
