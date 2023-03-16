@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Videos - Neuralnine</title>
+        <title>Code tests</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"

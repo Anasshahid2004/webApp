@@ -14,7 +14,7 @@ function Navbar(props) {
               className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
             >
               <Image
-                className=" w-[24%] "
+                className=" w-[184px] "
                 width={1024}
                 height={774}
                 alt="img"
@@ -64,28 +64,10 @@ function Navbar(props) {
               Blog
             </Link>
             <Link
-              href={"/books"}
-              className="mr-5 text-white mt-3 hover:text-orange-400 text-lg cursor-pointer px-4"
-            >
-              Books
-            </Link>
-            <Link
-              href={"/videos"}
-              className="mr-5 text-white mt-3 hover:text-orange-400 text-lg cursor-pointer px-4"
-            >
-              Videos
-            </Link>
-            <Link
               href={"/shop"}
               className="mr-5 text-white mt-3 hover:text-orange-400 text-lg cursor-pointer px-4"
             >
               Shop
-            </Link>
-            <Link
-              href={"/setup"}
-              className="mr-5 text-white mt-3 hover:text-orange-400 text-lg cursor-pointer px-4"
-            >
-              Setup
             </Link>
           </div>
         </div>
@@ -94,42 +76,27 @@ function Navbar(props) {
         <div className="px-2 pt-2 pb-3">
           <Link
             href={"/"}
-            className="mr-5 block my-2 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
+            className="mr-5 block my-5 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
           >
             Home
           </Link>
           <Link
             href={"/about"}
-            className="mr-5 block my-2 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
+            className="mr-5 block my-5 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
           >
             About
-          </Link><Link
+          </Link>
+          <Link
             href={"/blog"}
-            className="mr-5 block my-2 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
+            className="mr-5 block my-5 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
           >
             Blog
-          </Link><Link
-            href={"/books"}
-            className="mr-5 block my-2 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
-          >
-            Books
-          </Link><Link
-            href={"/videos"}
-            className="mr-5 block my-2 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
-          >
-            Videos
           </Link>
           <Link
             href={"/shop"}
-            className="mr-5 block my-2 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
+            className="mr-5 block my-5 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
           >
             Shop
-          </Link>
-          <Link
-            href={"/setup"}
-            className="mr-5 block my-2 text-white hover:text-orange-400 text-lg cursor-pointer px-4"
-          >
-            Setup
           </Link>
         </div>
       </div>

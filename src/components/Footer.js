@@ -83,12 +83,12 @@ const Footer = () => {
               </h2>
               <nav class="list-none mb-10 flex-col items-center ">
                 <li className="mx-4 my-1 md:my-0 ">
-                  <Link href="/" className="hover:text-orange-500 duration-500">
+                  <Link href="/privacy-policy" className="hover:text-orange-500 duration-500">
                     Privacy Policy
                   </Link>
                 </li>
                 <li className="mx-4 my-1 md:my-0 ">
-                  <Link href="/" className="hover:text-orange-500 duration-500">
+                  <Link href="/terms-and-conditions" className="hover:text-orange-500 duration-500">
                     Terms and Conditions
                   </Link>
                 </li>
