@@ -10,11 +10,49 @@
     
 }
 body{
-    @apply bg-[#1d1d1d];
+    @apply bg-[#c0c0c0];
 }
 
 .md-flex{
     text-decoration: none;
+}
+
+pre{
+    border-radius: 0.5em;
+    border: 0.3em solid hsl(0, 0%, 33%);
+    box-shadow: 1px 1px 0.5em black inset;
+    margin: 0;
+    overflow: auto;
+    padding: 1em;
+    border: none;
+}
+
+code{
+    color: white;
+    direction: ltr;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    text-align: left;
+    text-shadow: 0 -0.1em 0.2em black;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    background: transparent;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+th{
+  padding-right: 10px;
 }
 
 /* Scrollbar change */

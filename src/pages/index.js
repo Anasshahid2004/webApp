@@ -86,9 +86,9 @@ export default function Home() {
                 </p>
               </div>
             </Link>
-            <a
+            <Link
               rel="noopener noreferrer"
-              href="#"
+              href="/10-awesome-raspberry-pi-project-ideas"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
@@ -108,10 +108,10 @@ export default function Home() {
                   than 60$. Some older versions even....
                 </p>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               rel="noopener noreferrer"
-              href="#"
+              href="/analyzing-coronavirus-with-python"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
@@ -131,7 +131,7 @@ export default function Home() {
                   COVID-19. Now I am not....
                 </p>
               </div>
-            </a>
+            </Link>
             <a
               rel="noopener noreferrer"
               href="#"

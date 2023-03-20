@@ -123,7 +123,7 @@ export default function Home() {
               Mint, Debian, ArchLinux or you can even install Raspbian OS, which
               is a system particularly made for Raspberry Pis.
             </p>
-            <p className="mt-4 mb-8 text-md">
+            <div className="mt-4 mb-8 text-md">
               More about this project:
               <li>
                 You might want to add a cooler to your system: View on Amazon
@@ -143,7 +143,7 @@ export default function Home() {
                 There are complete Raspberry Pi starter-kits with most things
                 included: View on Amazon
               </li>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
@@ -166,7 +166,7 @@ export default function Home() {
               your Raspberry Pi in such a way that it always boots directly into
               an emulator with all the desired games.
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>
                 You might want to add a realistic gaming console case for the
@@ -184,7 +184,7 @@ export default function Home() {
                 You can make use of the RetroPie project for all of this: Retro
                 Pie
               </li>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
@@ -209,7 +209,7 @@ export default function Home() {
               additional packages and make some adjustments, but the research is
               half of the project and it is fun! Be persistent and creative!
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>
                 You might want to use a big monitor to get the perfect TV
@@ -220,7 +220,7 @@ export default function Home() {
                 You will probably need the OMX Image Viewer Software: OMX Image
                 Viewer
               </li>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
@@ -243,7 +243,7 @@ export default function Home() {
               cooler and some cables. Similar to the Smart TV you can use a
               monitor and your phone as the TV and the remote control.
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>A cooler and a case are definitely recommended.</li>
               <li>You will also use the Kodi software for this project.</li>
@@ -252,8 +252,8 @@ export default function Home() {
                 project.
               </li>
               <li>Keep things legal here!</li>
-            </p>
-          </div>
+            </div>
+          </div> 
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
               5 - Motion Detection System With Camera
@@ -277,7 +277,7 @@ export default function Home() {
               filter out movements. When a certain threshold is reached, you can
               then start recording and make the Pi send you a mail.
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>
                 For this project you will need a camera for your Raspberry Pi:
@@ -289,7 +289,7 @@ export default function Home() {
                 with that: Go To Books
               </li>
               <li>You can also set up a live stream of the video content.</li>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
@@ -311,7 +311,7 @@ export default function Home() {
               filters all traffic directly from your router. It is like a local
               black hole for advertisements. Pretty cool!
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>
                 There is a complete Pi-Hole software for this project: Pi-Hole
@@ -320,7 +320,7 @@ export default function Home() {
                 You might have to fill up the list of blocked ads manually.
               </li>
               <li>Some networking knowledge is beneficial for this project.</li>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
@@ -345,13 +345,13 @@ export default function Home() {
               additional hardware. But this project is extremely exciting if you
               are interested in hardware.
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>There are also some already built Pi robots</li>
               <li className="">Kit 1: View on Amazon</li>
               <li>Kit 2: View on Amazon</li>
               <li>Building them yourself is half of the fun!</li>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
@@ -374,7 +374,7 @@ export default function Home() {
               your Smart TV and more. There is already a software for that and
               not a lot of hardware is needed here.
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>
                 You will need a home automation software: Home Automation
@@ -385,7 +385,7 @@ export default function Home() {
                 devices or buy some.
               </li>
               <li>Smart Light: View on Amazon.</li>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
@@ -408,16 +408,16 @@ export default function Home() {
               WiFi-extender you can easily make this area larger and also be
               able to handle more devices.
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>
                 It’s actually very simple and doesn’t require any additional
                 hardware except for maybe a case.
               </li>
               <li>You can add a VPN service to extend its functionality..</li>
-            </p>
+            </div>
           </div>
-          <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
+           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-4 text-[#FF7825] text-center">
               10 - AI Voice Assistant
             </h2>
@@ -443,7 +443,7 @@ export default function Home() {
               knowledge. Especially Natural Language Processing and Data
               Science.
             </p>
-            <p className="mt-4 mb-2 text-md">
+            <div className="mt-4 mb-2 text-md">
               More about this project:
               <li>
                 To build it yourself you will need a lot of programming
@@ -464,7 +464,7 @@ export default function Home() {
                 For the perfect feeling, you might want to add a little monitor:
                 View on Amazon
               </li>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col w-full p-6 lg:w-3/4 md:p-8 lg:p-12 mt-2 mx-auto">
             <h2 className="text-3xl font-semibold leading-none pb-14 text-[#FF7825] text-center">
@@ -494,7 +494,7 @@ export default function Home() {
             <h2 className="text-lg font-semibold leading-none py-4 text-[#FF7825]">
               Subscribe NeuralNine on YouTube:
             </h2>
-          </div>
+          </div> 
         </div>
       </section>
       <section className="p-6 bg-[#0e0e0e] text-gray-50">
@@ -565,9 +565,9 @@ export default function Home() {
             YOU MIGHT ALSO LIKE
           </h2>
           <div className="grid justify-center grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
-            <a
+          <Link
               rel="noopener noreferrer"
-              href="#"
+              href="/mathematical-skills-needed-for-machine-learning"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
@@ -575,22 +575,22 @@ export default function Home() {
                 width={434}
                 height={434}
                 className="object-cover w-full rounded h-100 bg-gray-500"
-                src="https://media.discordapp.net/attachments/807562739324157962/1082969802664058961/50ideas.png?width=434&height=434"
+                src="https://media.discordapp.net/attachments/807562739324157962/1082969836054921366/maths.png?width=434&height=434"
               />
               <div className="p-4 space-y-2">
-                <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">
-                  50+ PYTHON PROGRAMMING IDEAS
-                </h3>
+                <h2 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">
+                  MATHEMATICAL SKILLS NEEDED FOR MACHINE LEARNING
+                </h2>
                 <p className="text-[15px]">
-                  Introduction Programming is fun. It enables us to automate
-                  processes and create awesome applications. But just reading
-                  books and watching tutorials is not enough. We....
+                  Introduction When it comes to computer science and especially
+                  to machine learning and data science, you oftentimes hear that
+                  mathematical skills are fundamental. But is....
                 </p>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               rel="noopener noreferrer"
-              href="#"
+              href="analyzing-coronavirus-with-python"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
@@ -598,19 +598,19 @@ export default function Home() {
                 width={434}
                 height={434}
                 className="object-cover w-full rounded h-100 bg-gray-500"
-                src="https://media.discordapp.net/attachments/807562739324157962/1082969800843722802/top5.png?width=434&height=434"
+                src="https://media.discordapp.net/attachments/807562739324157962/1082969834863734915/corona.png?width=434&height=434"
               />
               <div className="p-4 space-y-2">
                 <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">
-                  TOP 5 PROGRAMMING LANGUAGES FOR 2019
+                  ANALYZING CORONAVIRUS WITH PYTHON (COVID-19)
                 </h3>
                 <p className="text-[15px]">
-                  Introduction Right now, there are hundreds, if not thousands,
-                  of different programming languages out there. Some of them are
-                  used quite frequently and some of....
+                  Introduction Chances are, you are in quarantine right now and
+                  the reason for that is the coronavirus, also known as
+                  COVID-19. Now I am not....
                 </p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

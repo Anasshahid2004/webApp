@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <NavBar />
         <section className="bg-[#111111] text-gray-100">
-          <div className=" md:max-w-6xl mx-auto">
+          <div className=" md:max-w-6xl mx-auto px-6 container">
             <h1 className="text-[#FF7825] pt-16 pb-2 text-4xl font-bold">
               <Typewriter
                 options={{

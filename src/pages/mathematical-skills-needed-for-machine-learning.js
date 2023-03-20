@@ -356,9 +356,10 @@ export default function Home() {
             YOU MIGHT ALSO LIKE
           </h2>
           <div className="grid justify-center grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
-            <a
+        
+            <Link
               rel="noopener noreferrer"
-              href="#"
+              href="analyzing-coronavirus-with-python"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
@@ -366,22 +367,22 @@ export default function Home() {
                 width={434}
                 height={434}
                 className="object-cover w-full rounded h-100 bg-gray-500"
-                src="https://media.discordapp.net/attachments/807562739324157962/1082969802664058961/50ideas.png?width=434&height=434"
+                src="https://media.discordapp.net/attachments/807562739324157962/1082969834863734915/corona.png?width=434&height=434"
               />
               <div className="p-4 space-y-2">
                 <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">
-                  50+ PYTHON PROGRAMMING IDEAS
+                  ANALYZING CORONAVIRUS WITH PYTHON (COVID-19)
                 </h3>
                 <p className="text-[15px]">
-                  Introduction Programming is fun. It enables us to automate
-                  processes and create awesome applications. But just reading
-                  books and watching tutorials is not enough. We....
+                  Introduction Chances are, you are in quarantine right now and
+                  the reason for that is the coronavirus, also known as
+                  COVID-19. Now I am not....
                 </p>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               rel="noopener noreferrer"
-              href="#"
+              href="/10-awesome-raspberry-pi-project-ideas"
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
             >
               <Image
@@ -389,19 +390,19 @@ export default function Home() {
                 width={434}
                 height={434}
                 className="object-cover w-full rounded h-100 bg-gray-500"
-                src="https://media.discordapp.net/attachments/807562739324157962/1082969800843722802/top5.png?width=434&height=434"
+                src="https://media.discordapp.net/attachments/807562739324157962/1082969835740352563/raspberrypi.png?width=434&height=434"
               />
               <div className="p-4 space-y-2">
                 <h3 className="text-[17px] font-[700] group-hover:underline group-focus:underline text-[#FF7825]">
-                  TOP 5 PROGRAMMING LANGUAGES FOR 2019
+                  10 AWESOME RASPBERRY PI PROJECT IDEAS
                 </h3>
                 <p className="text-[15px]">
-                  Introduction Right now, there are hundreds, if not thousands,
-                  of different programming languages out there. Some of them are
-                  used quite frequently and some of....
+                  Introduction The Raspberry Pi is an awesome little piece of
+                  hardware. It is essentially a minicomputer that costs less
+                  than 60$. Some older versions even....
                 </p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
