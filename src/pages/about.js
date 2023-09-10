@@ -5,6 +5,8 @@ import styles from "@/styles/Home.module.css";
 import Script from "next/script";
 import Link from "next/link";
 import { useState } from "react";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,78 +22,10 @@ export default function Home() {
         />
       </Head>
 
-      <nav>
-        <div className="flex justify-between items-center">
-          <Image
-            className="inline w-[22%]"
-            width={1024}
-            height={774}
-            alt="img"
-            src="https://media.discordapp.net/attachments/807562739324157962/1080232878887161896/logo.png?width=1025&height=425"
-          ></Image>
-        </div>
-        <ul>
-          <li className="mx-4 my-6 md:my-0 ">
-            <Link
-              href="/"
-              className="text-lg hover:text-orange-500 duration-500"
-            >
-              HOME
-            </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0 ">
-            <Link
-              href="/blog"
-              className="text-lg hover:text-orange-500 duration-500"
-            >
-              BLOG
-            </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0 ">
-            <Link
-              href="/books"
-              className="text-lg hover:text-orange-500 duration-500"
-            >
-              BOOKS
-            </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0 ">
-            <Link
-              href="/videos"
-              className="text-lg hover:text-orange-500 duration-500"
-            >
-              VIDEOS
-            </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0 ">
-            <Link
-              href="/shop"
-              className="text-lg hover:text-orange-500 duration-500"
-            >
-              SHOP
-            </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0 ">
-            <Link
-              href="/about"
-              className="text-lg hover:text-orange-500 duration-500"
-            >
-              ABOUT
-            </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0 ">
-            <Link
-              href="/setup"
-              className="text-lg hover:text-orange-500 duration-500"
-            >
-              SETUP
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <NavBar />
       <section className="bg-black text-gray-100">
         <div className="container flex flex-col mx-auto lg:flex-row min-h-[400px]">
-          <div className="w-full lg:w-1/3">
+          <div className="w-1/2 lg:w-1/3 mx-auto">
             <Image
               className=""
               width={1024}
@@ -124,7 +58,7 @@ export default function Home() {
             <h2 className="text-3xl text-center font-semibold leading-none mb-8">
               Connect With NeuralNine!!
             </h2>
-            <nav class="list-none mb-10 gap-2">
+            <nav class="list-none mb-10 gap-2 flex flex-row justify-evenly">
               <li>
                 <a class="text-white hover:text-[#FF7825]">
                   <span class="fab fa-instagram fa-3x"></span>
@@ -159,151 +93,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <footer class="text-[#C4C4C4] body-font bg-black">
-        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-100">
-              <Image
-                className="h-auto inline w-full"
-                width={1024}
-                height={774}
-                alt="img"
-                src="https://media.discordapp.net/attachments/807562739324157962/1080232878887161896/logo.png?width=1025&height=425"
-              ></Image>
-            </a>
-            <p class="mt-2 text-md text-bold text-white text-center">
-              Copyright &copy; 2019
-            </p>
-          </div>
-          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 text-center">
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-[#FF7825] text-md mb-3">
-                Navigation
-              </h2>
-              <nav class="list-none mb-10 flex-col items-center">
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link href="/" className="hover:text-orange-500 duration-500">
-                    Home
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/blog"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    Blog
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/books"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    Books
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/videos"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    Videos
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/shop"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    Shop
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link
-                    href="/about"
-                    className="hover:text-orange-500 duration-500"
-                  >
-                    About
-                  </Link>
-                </li>
-              </nav>
-            </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-[#FF7825] text-md mb-3 text-center">
-                Legal
-              </h2>
-              <nav class="list-none mb-10 flex-col items-center ">
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link href="/" className="hover:text-orange-500 duration-500">
-                    Privacy Policy
-                  </Link>
-                </li>
-                <li className="mx-4 my-1 md:my-0 ">
-                  <Link href="/" className="hover:text-orange-500 duration-500">
-                    Terms and Conditions
-                  </Link>
-                </li>
-              </nav>
-            </div>
-            <div class="lg:w-1/2 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-[#FF7825] tracking-widest text-sm mb-3">
-                Social Media
-              </h2>
-              <nav class="list-none mb-10 gap-2">
-                <li>
-                  <Link
-                    href="https://www.instagram.com/neuralnine"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-instagram fa-3x"></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-youtube fa-3x"></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.twitter.com/neuralnine"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-twitter fa-3x"></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.linkedin.com/company/neuralnine/"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-linkedin fa-3x"></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://github.com/NeuralNine"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fab fa-github fa-3x"></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.neuralnine.com/contact"
-                    class="text-white hover:text-[#FF7825]"
-                  >
-                    <span class="fa fa-envelope fa-3x"></span>
-                  </Link>
-                </li>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

@@ -7,19 +7,111 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 body{
-    @apply bg-[#1d1d1d];
-}
-
-nav{
-    @apply bg-black shadow md:flex md:items-center md:justify-evenly list-none px-6;
-}
-
-ul{
-    @apply md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-black w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 text-white;
+    @apply bg-[#c0c0c0];
 }
 
 .md-flex{
     text-decoration: none;
+}
+
+pre{
+    border-radius: 0.5em;
+    border: 0.3em solid hsl(0, 0%, 33%);
+    box-shadow: 1px 1px 0.5em black inset;
+    margin: 0;
+    overflow: auto;
+    padding: 1em;
+    border: none;
+}
+
+code{
+    color: white;
+    direction: ltr;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    text-align: left;
+    text-shadow: 0 -0.1em 0.2em black;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    background: transparent;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+th{
+  padding-right: 10px;
+}
+
+/* Scrollbar change */
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FF7825; 
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff6200; 
+  }
+  
+/* OverLay Effect for Cards */
+
+.container {
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  top: -55px;
+  bottom: -55px;
+  left: 0;
+  right: 0;
+  max-height: 160%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease-in-out;
+  background-color: #FF7825;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
